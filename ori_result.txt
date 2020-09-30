@@ -1,0 +1,68 @@
+valid argument
+epoch = 0 loss = 50712.2071 cat loss = 20358.4791 cont_loss = 81065.9350
+epoch = 0 validation loss = 5649.7102 cat loss = 5466.4972 cont loss = 5832.9232
+epoch = 1 loss = 43643.3803 cat loss = 17972.0489 cont_loss = 69314.7118
+epoch = 1 validation loss = 5225.6654 cat loss = 5334.3443 cont loss = 5116.9863
+epoch = 2 loss = 43413.9114 cat loss = 17868.5844 cont_loss = 68959.2384
+epoch = 2 validation loss = 5185.4640 cat loss = 5409.7761 cont loss = 4961.1519
+epoch = 3 loss = 43292.0554 cat loss = 17860.6656 cont_loss = 68723.4455
+epoch = 3 validation loss = 5263.8512 cat loss = 5407.5237 cont loss = 5120.1787
+epoch = 4 loss = 43333.0874 cat loss = 17837.2769 cont_loss = 68828.8981
+epoch = 4 validation loss = 5256.9994 cat loss = 5363.9037 cont loss = 5150.0951
+epoch = 5 loss = 43380.3907 cat loss = 17880.8453 cont_loss = 68879.9362
+epoch = 5 validation loss = 5429.7757 cat loss = 5523.0423 cont loss = 5336.5089
+epoch = 6 loss = 43201.7416 cat loss = 17852.3428 cont_loss = 68551.1403
+epoch = 6 validation loss = 5108.2188 cat loss = 5389.8488 cont loss = 4826.5888
+epoch = 7 loss = 43279.2887 cat loss = 17886.2888 cont_loss = 68672.2887
+epoch = 7 validation loss = 5194.1762 cat loss = 5444.8762 cont loss = 4943.4762
+epoch = 8 loss = 42757.6004 cat loss = 17725.6079 cont_loss = 67789.5928
+epoch = 8 validation loss = 5052.2803 cat loss = 5407.1476 cont loss = 4697.4129
+epoch = 9 loss = 42628.7915 cat loss = 17712.2460 cont_loss = 67545.3370
+epoch = 9 validation loss = 5061.7485 cat loss = 5399.8656 cont loss = 4723.6314
+epoch = 10 loss = 42578.3196 cat loss = 17766.0099 cont_loss = 67390.6294
+epoch = 10 validation loss = 5132.2761 cat loss = 5414.5009 cont loss = 4850.0515
+epoch = 11 loss = 42490.8807 cat loss = 17731.5285 cont_loss = 67250.2329
+epoch = 11 validation loss = 5053.5222 cat loss = 5398.4544 cont loss = 4708.5900
+epoch = 12 loss = 42481.0154 cat loss = 17742.7738 cont_loss = 67219.2569
+epoch = 12 validation loss = 5046.4356 cat loss = 5398.2867 cont loss = 4694.5844
+epoch = 13 loss = 42374.6197 cat loss = 17724.5260 cont_loss = 67024.7136
+epoch = 13 validation loss = 5050.2599 cat loss = 5381.1332 cont loss = 4719.3867
+epoch = 14 loss = 42423.5452 cat loss = 17737.9573 cont_loss = 67109.1332
+epoch = 14 validation loss = 5028.0668 cat loss = 5375.7569 cont loss = 4680.3767
+completed training
+saved models
+starting testing
+completed testing
+saved mat files
+Category        Affection 0.26227
+Category            Anger 0.09318
+Category        Annoyance 0.13066
+Category     Anticipation 0.93747
+Category         Aversion 0.10753
+Category       Confidence 0.76259
+Category      Disapproval 0.11215
+Category    Disconnection 0.29310
+Category     Disquietment 0.17178
+Category  Doubt/Confusion 0.14370
+Category    Embarrassment 0.05992
+Category       Engagement 0.96283
+Category           Esteem 0.22308
+Category       Excitement 0.72776
+Category          Fatigue 0.06628
+Category             Fear 0.05867
+Category        Happiness 0.67288
+Category             Pain 0.07899
+Category            Peace 0.21186
+Category         Pleasure 0.37393
+Category          Sadness 0.09255
+Category      Sensitivity 0.04515
+Category        Suffering 0.09991
+Category         Surprise 0.11090
+Category         Sympathy 0.24587
+Category         Yearning 0.10734
+Mean AP 0.27509
+Continuous    Valence 0.72530
+Continuous    Arousal 0.86937
+Continuous  Dominance 0.88308
+Mean VAD Error 0.82592
+saved thresholds

@@ -1,0 +1,1045 @@
+mode  train
+train  context  (23266, 224, 224, 3) body (23266, 128, 128, 3) cat  (23266, 26) cont (23266, 3)
+val  context  (3315, 224, 224, 3) body (3315, 128, 128, 3) cat  (3315, 26) cont (3315, 3)
+train loader  448 val loader  64
+completed preparing context model
+completed preparing body model
+starting training
+THCudaCheck FAIL file=/opt/conda/conda-bld/pytorch_1544176307774/work/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+epoch = 0 loss = 51965.2061 cat loss = 21960.4863 cont_loss = 81969.9259
+epoch = 0 validation loss = 5913.9853 cat loss = 5524.8594 cont loss = 6303.1111
+epoch = 1 loss = 43707.6115 cat loss = 18008.6289 cont_loss = 69406.5941
+epoch = 1 validation loss = 5245.2725 cat loss = 5438.9962 cont loss = 5051.5490
+epoch = 2 loss = 43313.3965 cat loss = 17877.8357 cont_loss = 68748.9573
+epoch = 2 validation loss = 5164.5172 cat loss = 5434.6342 cont loss = 4894.4001
+epoch = 3 loss = 43319.5306 cat loss = 17883.4220 cont_loss = 68755.6390
+epoch = 3 validation loss = 5265.3698 cat loss = 5417.7785 cont loss = 5112.9611
+epoch = 4 loss = 43379.9885 cat loss = 17875.9959 cont_loss = 68883.9812
+epoch = 4 validation loss = 5287.1870 cat loss = 5460.0256 cont loss = 5114.3485
+epoch = 5 loss = 43643.9804 cat loss = 17957.6369 cont_loss = 69330.3239
+epoch = 5 validation loss = 5275.3114 cat loss = 5502.6364 cont loss = 5047.9863
+epoch = 6 loss = 43493.0054 cat loss = 17870.3623 cont_loss = 69115.6485
+epoch = 6 validation loss = 5251.8154 cat loss = 5508.9820 cont loss = 4994.6487
+epoch = 7 loss = 43651.9438 cat loss = 17907.2650 cont_loss = 69396.6229
+epoch = 7 validation loss = 5248.1488 cat loss = 5478.3480 cont loss = 5017.9497
+epoch = 8 loss = 43749.2946 cat loss = 17908.5559 cont_loss = 69590.0332
+epoch = 8 validation loss = 5294.8588 cat loss = 5442.3343 cont loss = 5147.3832
+epoch = 9 loss = 43723.6668 cat loss = 17872.7599 cont_loss = 69574.5736
+epoch = 9 validation loss = 5283.6512 cat loss = 5437.2848 cont loss = 5130.0177
+epoch = 10 loss = 43719.8540 cat loss = 17870.4831 cont_loss = 69569.2249
+epoch = 10 validation loss = 5305.7864 cat loss = 5426.6538 cont loss = 5184.9189
+epoch = 11 loss = 43711.3298 cat loss = 17844.7049 cont_loss = 69577.9548
+epoch = 11 validation loss = 5262.2813 cat loss = 5428.6454 cont loss = 5095.9172
+epoch = 12 loss = 43720.3166 cat loss = 17873.5459 cont_loss = 69567.0872
+epoch = 12 validation loss = 5368.4283 cat loss = 5453.9311 cont loss = 5282.9254
+epoch = 13 loss = 43158.4465 cat loss = 17797.8824 cont_loss = 68519.0106
+epoch = 13 validation loss = 5156.6861 cat loss = 5368.5813 cont loss = 4944.7910
+epoch = 14 loss = 42759.7973 cat loss = 17776.2687 cont_loss = 67743.3261
+epoch = 14 validation loss = 5090.6025 cat loss = 5411.5267 cont loss = 4769.6783
+epoch = 15 loss = 42505.5439 cat loss = 17691.8682 cont_loss = 67319.2195
+epoch = 15 validation loss = 5084.6961 cat loss = 5393.8099 cont loss = 4775.5822
+epoch = 16 loss = 42360.3640 cat loss = 17666.8533 cont_loss = 67053.8748
+epoch = 16 validation loss = 5066.2717 cat loss = 5381.8907 cont loss = 4750.6527
+epoch = 17 loss = 42342.4997 cat loss = 17687.2500 cont_loss = 66997.7495
+epoch = 17 validation loss = 5061.5293 cat loss = 5382.6297 cont loss = 4740.4287
+epoch = 18 loss = 42272.8786 cat loss = 17711.2140 cont_loss = 66834.5433
+epoch = 18 validation loss = 5072.0541 cat loss = 5387.2951 cont loss = 4756.8132
+epoch = 19 loss = 42192.0705 cat loss = 17646.0707 cont_loss = 66738.0703
+epoch = 19 validation loss = 5071.1959 cat loss = 5388.9897 cont loss = 4753.4020
+epoch = 20 loss = 42184.1058 cat loss = 17713.8157 cont_loss = 66654.3958
+epoch = 20 validation loss = 5076.0549 cat loss = 5385.2354 cont loss = 4766.8746
+epoch = 21 loss = 42079.5952 cat loss = 17656.1899 cont_loss = 66503.0007
+epoch = 21 validation loss = 5071.5600 cat loss = 5386.6847 cont loss = 4756.4352
+epoch = 22 loss = 42032.9404 cat loss = 17653.1698 cont_loss = 66412.7112
+epoch = 22 validation loss = 5064.0943 cat loss = 5386.2358 cont loss = 4741.9527
+epoch = 23 loss = 41993.6068 cat loss = 17627.5282 cont_loss = 66359.6853
+epoch = 23 validation loss = 5060.6440 cat loss = 5389.1418 cont loss = 4732.1462
+epoch = 24 loss = 41962.9483 cat loss = 17660.1921 cont_loss = 66265.7046
+epoch = 24 validation loss = 5050.2847 cat loss = 5381.8065 cont loss = 4718.7629
+epoch = 25 loss = 41954.4950 cat loss = 17669.7191 cont_loss = 66239.2710
+epoch = 25 validation loss = 5064.5522 cat loss = 5394.9937 cont loss = 4734.1107
+epoch = 26 loss = 41903.9182 cat loss = 17620.4965 cont_loss = 66187.3399
+epoch = 26 validation loss = 5050.7223 cat loss = 5381.8163 cont loss = 4719.6283
+epoch = 27 loss = 41913.8536 cat loss = 17624.2292 cont_loss = 66203.4778
+epoch = 27 validation loss = 5057.4202 cat loss = 5389.4018 cont loss = 4725.4385
+epoch = 28 loss = 41917.1517 cat loss = 17643.8005 cont_loss = 66190.5032
+epoch = 28 validation loss = 5054.4890 cat loss = 5386.1204 cont loss = 4722.8576
+epoch = 29 loss = 41852.1054 cat loss = 17601.3563 cont_loss = 66102.8546
+epoch = 29 validation loss = 5055.8968 cat loss = 5389.6830 cont loss = 4722.1106
+epoch = 30 loss = 41882.5135 cat loss = 17624.5895 cont_loss = 66140.4375
+epoch = 30 validation loss = 5050.8857 cat loss = 5380.9095 cont loss = 4720.8618
+epoch = 31 loss = 41890.2535 cat loss = 17644.1877 cont_loss = 66136.3194
+epoch = 31 validation loss = 5055.2117 cat loss = 5389.0598 cont loss = 4721.3636
+epoch = 32 loss = 41880.2797 cat loss = 17667.5526 cont_loss = 66093.0067
+epoch = 32 validation loss = 5048.2553 cat loss = 5378.1258 cont loss = 4718.3849
+epoch = 33 loss = 41890.9058 cat loss = 17699.1718 cont_loss = 66082.6398
+epoch = 33 validation loss = 5055.5009 cat loss = 5390.0923 cont loss = 4720.9096
+epoch = 34 loss = 41913.1716 cat loss = 17660.3238 cont_loss = 66166.0194
+epoch = 34 validation loss = 5055.0750 cat loss = 5389.0533 cont loss = 4721.0967
+epoch = 35 loss = 41900.1189 cat loss = 17666.4006 cont_loss = 66133.8374
+epoch = 35 validation loss = 5055.9125 cat loss = 5390.1486 cont loss = 4721.6765
+epoch = 36 loss = 41917.9703 cat loss = 17652.9340 cont_loss = 66183.0067
+epoch = 36 validation loss = 5048.7321 cat loss = 5383.0919 cont loss = 4714.3722
+epoch = 37 loss = 41908.6791 cat loss = 17644.7523 cont_loss = 66172.6056
+epoch = 37 validation loss = 5051.7080 cat loss = 5383.6359 cont loss = 4719.7800
+epoch = 38 loss = 41905.2333 cat loss = 17643.2722 cont_loss = 66167.1944
+epoch = 38 validation loss = 5056.4541 cat loss = 5389.7054 cont loss = 4723.2030
+epoch = 39 loss = 41916.2655 cat loss = 17632.6328 cont_loss = 66199.8981
+epoch = 39 validation loss = 5056.3008 cat loss = 5389.9906 cont loss = 4722.6110
+epoch = 40 loss = 41946.3128 cat loss = 17677.8011 cont_loss = 66214.8247
+epoch = 40 validation loss = 5048.7652 cat loss = 5383.1521 cont loss = 4714.3782
+epoch = 41 loss = 41883.4120 cat loss = 17651.8742 cont_loss = 66114.9497
+epoch = 41 validation loss = 5054.7848 cat loss = 5387.7411 cont loss = 4721.8285
+epoch = 42 loss = 41881.2712 cat loss = 17656.9946 cont_loss = 66105.5478
+epoch = 42 validation loss = 5058.8619 cat loss = 5392.3507 cont loss = 4725.3731
+epoch = 43 loss = 41907.2205 cat loss = 17653.4172 cont_loss = 66161.0237
+epoch = 43 validation loss = 5044.8761 cat loss = 5382.1664 cont loss = 4707.5859
+epoch = 44 loss = 41897.2547 cat loss = 17633.6669 cont_loss = 66160.8425
+epoch = 44 validation loss = 5056.8002 cat loss = 5388.5256 cont loss = 4725.0748
+epoch = 45 loss = 41901.7419 cat loss = 17655.4838 cont_loss = 66147.9999
+epoch = 45 validation loss = 5055.1651 cat loss = 5387.9026 cont loss = 4722.4276
+epoch = 46 loss = 41923.7872 cat loss = 17653.1114 cont_loss = 66194.4629
+epoch = 46 validation loss = 5050.0531 cat loss = 5382.3119 cont loss = 4717.7943
+epoch = 47 loss = 41870.5468 cat loss = 17625.0648 cont_loss = 66116.0288
+epoch = 47 validation loss = 5046.1530 cat loss = 5376.7839 cont loss = 4715.5220
+epoch = 48 loss = 41947.3727 cat loss = 17640.4470 cont_loss = 66254.2984
+epoch = 48 validation loss = 5054.5183 cat loss = 5387.0586 cont loss = 4721.9779
+epoch = 49 loss = 41907.2914 cat loss = 17647.4725 cont_loss = 66167.1101
+epoch = 49 validation loss = 5053.1506 cat loss = 5387.4286 cont loss = 4718.8726
+epoch = 50 loss = 41878.3857 cat loss = 17667.1098 cont_loss = 66089.6619
+epoch = 50 validation loss = 5057.4818 cat loss = 5391.7445 cont loss = 4723.2191
+epoch = 51 loss = 41894.1598 cat loss = 17648.9355 cont_loss = 66139.3843
+epoch = 51 validation loss = 5052.7938 cat loss = 5386.0025 cont loss = 4719.5849
+epoch = 52 loss = 41932.9594 cat loss = 17684.2345 cont_loss = 66181.6842
+epoch = 52 validation loss = 5051.6362 cat loss = 5384.8726 cont loss = 4718.3998
+epoch = 53 loss = 41870.9317 cat loss = 17660.9160 cont_loss = 66080.9474
+epoch = 53 validation loss = 5051.3494 cat loss = 5378.8567 cont loss = 4723.8420
+epoch = 54 loss = 41906.3601 cat loss = 17661.8512 cont_loss = 66150.8689
+epoch = 54 validation loss = 5048.8141 cat loss = 5381.6804 cont loss = 4715.9477
+epoch = 55 loss = 41891.0047 cat loss = 17677.1845 cont_loss = 66104.8250
+epoch = 55 validation loss = 5055.3548 cat loss = 5388.3937 cont loss = 4722.3160
+epoch = 56 loss = 41926.0873 cat loss = 17706.4437 cont_loss = 66145.7311
+epoch = 56 validation loss = 5047.0764 cat loss = 5375.0201 cont loss = 4719.1326
+epoch = 57 loss = 41965.6544 cat loss = 17716.6079 cont_loss = 66214.7010
+epoch = 57 validation loss = 5052.9937 cat loss = 5387.8785 cont loss = 4718.1088
+epoch = 58 loss = 41865.1818 cat loss = 17609.1609 cont_loss = 66121.2028
+epoch = 58 validation loss = 5050.8897 cat loss = 5378.9238 cont loss = 4722.8556
+epoch = 59 loss = 41857.6367 cat loss = 17632.9152 cont_loss = 66082.3583
+epoch = 59 validation loss = 5052.5021 cat loss = 5386.7435 cont loss = 4718.2607
+epoch = 60 loss = 41919.7809 cat loss = 17611.2454 cont_loss = 66228.3163
+epoch = 60 validation loss = 5049.8395 cat loss = 5379.7804 cont loss = 4719.8986
+epoch = 61 loss = 41972.8895 cat loss = 17682.3465 cont_loss = 66263.4324
+epoch = 61 validation loss = 5051.5990 cat loss = 5385.0332 cont loss = 4718.1649
+epoch = 62 loss = 41919.0208 cat loss = 17661.1187 cont_loss = 66176.9227
+epoch = 62 validation loss = 5051.7911 cat loss = 5386.8911 cont loss = 4716.6912
+epoch = 63 loss = 41917.2265 cat loss = 17628.1011 cont_loss = 66206.3517
+epoch = 63 validation loss = 5055.5238 cat loss = 5391.5123 cont loss = 4719.5353
+epoch = 64 loss = 41910.1182 cat loss = 17597.2744 cont_loss = 66222.9621
+epoch = 64 validation loss = 5054.6076 cat loss = 5389.8950 cont loss = 4719.3202
+epoch = 65 loss = 41886.4197 cat loss = 17641.1970 cont_loss = 66131.6422
+epoch = 65 validation loss = 5050.5091 cat loss = 5384.5233 cont loss = 4716.4949
+epoch = 66 loss = 41851.0833 cat loss = 17622.5097 cont_loss = 66079.6571
+epoch = 66 validation loss = 5056.7017 cat loss = 5389.3504 cont loss = 4724.0530
+epoch = 67 loss = 41895.1476 cat loss = 17657.8585 cont_loss = 66132.4368
+epoch = 67 validation loss = 5048.8549 cat loss = 5383.1866 cont loss = 4714.5232
+epoch = 68 loss = 41911.6904 cat loss = 17629.0397 cont_loss = 66194.3410
+epoch = 68 validation loss = 5055.0420 cat loss = 5390.0561 cont loss = 4720.0278
+epoch = 69 loss = 41900.5720 cat loss = 17615.3030 cont_loss = 66185.8410
+epoch = 69 validation loss = 5050.0866 cat loss = 5383.1899 cont loss = 4716.9834
+epoch = 70 loss = 41911.1324 cat loss = 17629.4992 cont_loss = 66192.7655
+epoch = 70 validation loss = 5066.2224 cat loss = 5398.7273 cont loss = 4733.7176
+epoch = 71 loss = 41955.1639 cat loss = 17671.2961 cont_loss = 66239.0317
+epoch = 71 validation loss = 5056.9802 cat loss = 5391.7368 cont loss = 4722.2237
+epoch = 72 loss = 41904.1606 cat loss = 17612.1768 cont_loss = 66196.1444
+epoch = 72 validation loss = 5055.3044 cat loss = 5387.9212 cont loss = 4722.6877
+epoch = 73 loss = 41935.6023 cat loss = 17679.3579 cont_loss = 66191.8466
+epoch = 73 validation loss = 5058.2491 cat loss = 5390.9223 cont loss = 4725.5758
+epoch = 74 loss = 41880.1454 cat loss = 17674.5236 cont_loss = 66085.7671
+epoch = 74 validation loss = 5053.4714 cat loss = 5384.9556 cont loss = 4721.9873
+epoch = 75 loss = 41910.1458 cat loss = 17673.0897 cont_loss = 66147.2020
+epoch = 75 validation loss = 5050.9996 cat loss = 5384.5057 cont loss = 4717.4935
+epoch = 76 loss = 41906.8754 cat loss = 17673.9179 cont_loss = 66139.8328
+epoch = 76 validation loss = 5047.2523 cat loss = 5382.9369 cont loss = 4711.5676
+epoch = 77 loss = 41946.9244 cat loss = 17664.2373 cont_loss = 66229.6115
+epoch = 77 validation loss = 5055.4481 cat loss = 5387.7496 cont loss = 4723.1465
+epoch = 78 loss = 41880.9775 cat loss = 17628.1821 cont_loss = 66133.7726
+epoch = 78 validation loss = 5049.9630 cat loss = 5381.3553 cont loss = 4718.5708
+epoch = 79 loss = 41898.5633 cat loss = 17647.8019 cont_loss = 66149.3249
+epoch = 79 validation loss = 5055.7523 cat loss = 5390.1555 cont loss = 4721.3491
+epoch = 80 loss = 41912.0562 cat loss = 17644.3446 cont_loss = 66179.7677
+epoch = 80 validation loss = 5055.9009 cat loss = 5388.3137 cont loss = 4723.4881
+epoch = 81 loss = 41924.8886 cat loss = 17666.4438 cont_loss = 66183.3335
+epoch = 81 validation loss = 5053.6747 cat loss = 5384.5623 cont loss = 4722.7873
+epoch = 82 loss = 41927.5134 cat loss = 17624.7691 cont_loss = 66230.2576
+epoch = 82 validation loss = 5051.1032 cat loss = 5379.9880 cont loss = 4722.2185
+epoch = 83 loss = 41889.6402 cat loss = 17658.6780 cont_loss = 66120.6025
+epoch = 83 validation loss = 5049.8549 cat loss = 5383.6241 cont loss = 4716.0857
+epoch = 84 loss = 41924.4909 cat loss = 17655.2680 cont_loss = 66193.7139
+epoch = 84 validation loss = 5051.8925 cat loss = 5385.0756 cont loss = 4718.7095
+epoch = 85 loss = 41846.3169 cat loss = 17625.0430 cont_loss = 66067.5908
+epoch = 85 validation loss = 5049.2878 cat loss = 5385.4972 cont loss = 4713.0785
+epoch = 86 loss = 41863.5542 cat loss = 17657.0848 cont_loss = 66070.0237
+epoch = 86 validation loss = 5060.1000 cat loss = 5392.6390 cont loss = 4727.5611
+epoch = 87 loss = 41870.8418 cat loss = 17647.9987 cont_loss = 66093.6847
+epoch = 87 validation loss = 5050.6500 cat loss = 5386.9388 cont loss = 4714.3612
+epoch = 88 loss = 41898.7963 cat loss = 17623.3289 cont_loss = 66174.2637
+epoch = 88 validation loss = 5058.6029 cat loss = 5390.9462 cont loss = 4726.2596
+epoch = 89 loss = 41842.4047 cat loss = 17618.7173 cont_loss = 66066.0920
+epoch = 89 validation loss = 5053.8400 cat loss = 5389.9731 cont loss = 4717.7068
+epoch = 90 loss = 41867.8982 cat loss = 17662.9212 cont_loss = 66072.8753
+epoch = 90 validation loss = 5047.8318 cat loss = 5378.8969 cont loss = 4716.7668
+epoch = 91 loss = 41856.7527 cat loss = 17641.4911 cont_loss = 66072.0143
+epoch = 91 validation loss = 5048.9508 cat loss = 5381.1132 cont loss = 4716.7883
+epoch = 92 loss = 41931.2705 cat loss = 17683.6930 cont_loss = 66178.8480
+epoch = 92 validation loss = 5050.4220 cat loss = 5383.6671 cont loss = 4717.1768
+epoch = 93 loss = 41920.9874 cat loss = 17680.6602 cont_loss = 66161.3146
+epoch = 93 validation loss = 5049.6802 cat loss = 5384.9522 cont loss = 4714.4081
+epoch = 94 loss = 41837.8279 cat loss = 17643.8025 cont_loss = 66031.8532
+epoch = 94 validation loss = 5048.0863 cat loss = 5378.9736 cont loss = 4717.1990
+epoch = 95 loss = 41853.4953 cat loss = 17635.0390 cont_loss = 66071.9516
+epoch = 95 validation loss = 5055.3065 cat loss = 5391.2954 cont loss = 4719.3175
+epoch = 96 loss = 41853.7207 cat loss = 17644.9563 cont_loss = 66062.4851
+epoch = 96 validation loss = 5048.9525 cat loss = 5381.7952 cont loss = 4716.1099
+epoch = 97 loss = 41933.1065 cat loss = 17676.7575 cont_loss = 66189.4557
+epoch = 97 validation loss = 5054.7245 cat loss = 5387.6320 cont loss = 4721.8170
+epoch = 98 loss = 41865.1564 cat loss = 17588.0137 cont_loss = 66142.2989
+epoch = 98 validation loss = 5051.3216 cat loss = 5378.5223 cont loss = 4724.1209
+epoch = 99 loss = 41851.4038 cat loss = 17615.3265 cont_loss = 66087.4813
+epoch = 99 validation loss = 5055.5358 cat loss = 5389.5399 cont loss = 4721.5316
+epoch = 100 loss = 41942.6997 cat loss = 17684.3274 cont_loss = 66201.0719
+epoch = 100 validation loss = 5055.0682 cat loss = 5389.3725 cont loss = 4720.7639
+epoch = 101 loss = 41868.6738 cat loss = 17649.4296 cont_loss = 66087.9178
+epoch = 101 validation loss = 5054.5528 cat loss = 5387.8569 cont loss = 4721.2488
+epoch = 102 loss = 41850.3773 cat loss = 17629.2050 cont_loss = 66071.5495
+epoch = 102 validation loss = 5050.4880 cat loss = 5385.6939 cont loss = 4715.2820
+epoch = 103 loss = 41848.3159 cat loss = 17661.4458 cont_loss = 66035.1859
+epoch = 103 validation loss = 5049.6662 cat loss = 5382.8405 cont loss = 4716.4919
+epoch = 104 loss = 41924.3173 cat loss = 17612.0445 cont_loss = 66236.5901
+epoch = 104 validation loss = 5049.9702 cat loss = 5385.6547 cont loss = 4714.2856
+epoch = 105 loss = 41899.0075 cat loss = 17620.7778 cont_loss = 66177.2372
+epoch = 105 validation loss = 5049.7065 cat loss = 5382.1045 cont loss = 4717.3085
+epoch = 106 loss = 41901.6130 cat loss = 17672.2985 cont_loss = 66130.9277
+epoch = 106 validation loss = 5052.5922 cat loss = 5384.9459 cont loss = 4720.2384
+epoch = 107 loss = 41915.9184 cat loss = 17634.2682 cont_loss = 66197.5685
+epoch = 107 validation loss = 5050.8505 cat loss = 5384.6338 cont loss = 4717.0672
+epoch = 108 loss = 41914.2035 cat loss = 17633.7496 cont_loss = 66194.6572
+epoch = 108 validation loss = 5045.5956 cat loss = 5376.4871 cont loss = 4714.7039
+epoch = 109 loss = 41903.2039 cat loss = 17665.1396 cont_loss = 66141.2683
+epoch = 109 validation loss = 5056.8625 cat loss = 5388.9214 cont loss = 4724.8037
+epoch = 110 loss = 41871.9526 cat loss = 17611.8764 cont_loss = 66132.0289
+epoch = 110 validation loss = 5049.7353 cat loss = 5381.4053 cont loss = 4718.0652
+epoch = 111 loss = 41873.9681 cat loss = 17650.5960 cont_loss = 66097.3402
+epoch = 111 validation loss = 5057.6811 cat loss = 5391.8600 cont loss = 4723.5021
+epoch = 112 loss = 41868.3711 cat loss = 17636.1239 cont_loss = 66100.6181
+epoch = 112 validation loss = 5061.8175 cat loss = 5394.8714 cont loss = 4728.7637
+epoch = 113 loss = 41915.0909 cat loss = 17634.5263 cont_loss = 66195.6554
+epoch = 113 validation loss = 5052.1537 cat loss = 5385.7867 cont loss = 4718.5206
+epoch = 114 loss = 41915.3237 cat loss = 17675.2623 cont_loss = 66155.3852
+epoch = 114 validation loss = 5050.5454 cat loss = 5383.9491 cont loss = 4717.1418
+epoch = 115 loss = 41927.2809 cat loss = 17666.3525 cont_loss = 66188.2095
+epoch = 115 validation loss = 5057.9634 cat loss = 5393.9137 cont loss = 4722.0132
+epoch = 116 loss = 41898.9470 cat loss = 17664.8659 cont_loss = 66133.0281
+epoch = 116 validation loss = 5054.8797 cat loss = 5390.5845 cont loss = 4719.1749
+epoch = 117 loss = 41875.3352 cat loss = 17647.7723 cont_loss = 66102.8979
+epoch = 117 validation loss = 5047.5525 cat loss = 5381.5041 cont loss = 4713.6009
+epoch = 118 loss = 41931.4540 cat loss = 17652.7268 cont_loss = 66210.1812
+epoch = 118 validation loss = 5053.4716 cat loss = 5385.9400 cont loss = 4721.0032
+epoch = 119 loss = 41848.9669 cat loss = 17634.1499 cont_loss = 66063.7840
+epoch = 119 validation loss = 5050.2000 cat loss = 5381.4074 cont loss = 4718.9925
+epoch = 120 loss = 41902.2226 cat loss = 17682.3499 cont_loss = 66122.0954
+epoch = 120 validation loss = 5061.1372 cat loss = 5394.6233 cont loss = 4727.6511
+epoch = 121 loss = 41903.3633 cat loss = 17673.8491 cont_loss = 66132.8776
+epoch = 121 validation loss = 5050.3542 cat loss = 5383.5111 cont loss = 4717.1973
+epoch = 122 loss = 41880.8561 cat loss = 17614.1739 cont_loss = 66147.5384
+epoch = 122 validation loss = 5054.3430 cat loss = 5388.5033 cont loss = 4720.1827
+epoch = 123 loss = 41879.3632 cat loss = 17690.8159 cont_loss = 66067.9106
+epoch = 123 validation loss = 5052.4602 cat loss = 5387.5822 cont loss = 4717.3383
+epoch = 124 loss = 41887.8900 cat loss = 17634.9647 cont_loss = 66140.8154
+epoch = 124 validation loss = 5055.1164 cat loss = 5389.1755 cont loss = 4721.0573
+epoch = 125 loss = 41889.7268 cat loss = 17628.0331 cont_loss = 66151.4204
+epoch = 125 validation loss = 5054.0604 cat loss = 5389.8216 cont loss = 4718.2992
+epoch = 126 loss = 41969.2938 cat loss = 17709.2039 cont_loss = 66229.3835
+epoch = 126 validation loss = 5047.9510 cat loss = 5380.2376 cont loss = 4715.6644
+epoch = 127 loss = 41863.8778 cat loss = 17669.7888 cont_loss = 66057.9667
+epoch = 127 validation loss = 5055.1546 cat loss = 5386.0708 cont loss = 4724.2385
+epoch = 128 loss = 41857.8614 cat loss = 17652.8693 cont_loss = 66062.8537
+epoch = 128 validation loss = 5049.4244 cat loss = 5382.4455 cont loss = 4716.4033
+epoch = 129 loss = 41931.3080 cat loss = 17614.5902 cont_loss = 66248.0259
+epoch = 129 validation loss = 5049.4162 cat loss = 5382.0017 cont loss = 4716.8308
+epoch = 130 loss = 41895.5861 cat loss = 17635.1314 cont_loss = 66156.0406
+epoch = 130 validation loss = 5056.3332 cat loss = 5389.8835 cont loss = 4722.7830
+epoch = 131 loss = 41890.0645 cat loss = 17626.0445 cont_loss = 66154.0846
+epoch = 131 validation loss = 5052.3111 cat loss = 5386.8945 cont loss = 4717.7277
+epoch = 132 loss = 41911.5268 cat loss = 17675.1278 cont_loss = 66147.9259
+epoch = 132 validation loss = 5049.1967 cat loss = 5384.7732 cont loss = 4713.6201
+epoch = 133 loss = 41893.7473 cat loss = 17651.3792 cont_loss = 66136.1153
+epoch = 133 validation loss = 5049.8928 cat loss = 5377.0079 cont loss = 4722.7777
+epoch = 134 loss = 41910.7693 cat loss = 17675.4401 cont_loss = 66146.0985
+epoch = 134 validation loss = 5052.0985 cat loss = 5383.6366 cont loss = 4720.5604
+epoch = 135 loss = 41915.7069 cat loss = 17643.5390 cont_loss = 66187.8749
+epoch = 135 validation loss = 5046.1262 cat loss = 5376.5039 cont loss = 4715.7484
+epoch = 136 loss = 41887.4523 cat loss = 17632.8757 cont_loss = 66142.0288
+epoch = 136 validation loss = 5051.7720 cat loss = 5385.0983 cont loss = 4718.4458
+epoch = 137 loss = 41923.4364 cat loss = 17701.7967 cont_loss = 66145.0760
+epoch = 137 validation loss = 5050.8090 cat loss = 5387.4939 cont loss = 4714.1242
+epoch = 138 loss = 41854.7878 cat loss = 17616.9400 cont_loss = 66092.6358
+epoch = 138 validation loss = 5054.8877 cat loss = 5387.3362 cont loss = 4722.4393
+epoch = 139 loss = 41895.4677 cat loss = 17653.0625 cont_loss = 66137.8731
+epoch = 139 validation loss = 5060.0683 cat loss = 5391.4573 cont loss = 4728.6793
+epoch = 140 loss = 41887.2096 cat loss = 17666.7990 cont_loss = 66107.6202
+epoch = 140 validation loss = 5055.5773 cat loss = 5388.2109 cont loss = 4722.9437
+epoch = 141 loss = 41844.2014 cat loss = 17678.5240 cont_loss = 66009.8789
+epoch = 141 validation loss = 5052.2383 cat loss = 5386.7597 cont loss = 4717.7170
+epoch = 142 loss = 41891.0048 cat loss = 17637.5055 cont_loss = 66144.5043
+epoch = 142 validation loss = 5059.5110 cat loss = 5394.8540 cont loss = 4724.1680
+epoch = 143 loss = 41882.8877 cat loss = 17631.8022 cont_loss = 66133.9729
+epoch = 143 validation loss = 5055.7563 cat loss = 5389.3748 cont loss = 4722.1379
+epoch = 144 loss = 41908.5777 cat loss = 17662.8930 cont_loss = 66154.2622
+epoch = 144 validation loss = 5053.6538 cat loss = 5386.7180 cont loss = 4720.5896
+epoch = 145 loss = 41875.9406 cat loss = 17666.7324 cont_loss = 66085.1488
+epoch = 145 validation loss = 5046.2625 cat loss = 5379.6114 cont loss = 4712.9137
+epoch = 146 loss = 41856.1909 cat loss = 17647.4585 cont_loss = 66064.9234
+epoch = 146 validation loss = 5055.0606 cat loss = 5390.1186 cont loss = 4720.0026
+epoch = 147 loss = 41876.7393 cat loss = 17637.4434 cont_loss = 66116.0353
+epoch = 147 validation loss = 5058.5524 cat loss = 5390.8282 cont loss = 4726.2766
+epoch = 148 loss = 41909.6923 cat loss = 17639.0080 cont_loss = 66180.3766
+epoch = 148 validation loss = 5052.9852 cat loss = 5389.0266 cont loss = 4716.9439
+epoch = 149 loss = 41877.9833 cat loss = 17634.5899 cont_loss = 66121.3766
+epoch = 149 validation loss = 5051.6967 cat loss = 5385.3156 cont loss = 4718.0777
+epoch = 150 loss = 41937.8393 cat loss = 17653.6531 cont_loss = 66222.0254
+epoch = 150 validation loss = 5050.2674 cat loss = 5382.2135 cont loss = 4718.3213
+epoch = 151 loss = 41920.1714 cat loss = 17686.5976 cont_loss = 66153.7451
+epoch = 151 validation loss = 5059.7189 cat loss = 5391.4382 cont loss = 4727.9996
+epoch = 152 loss = 41872.4507 cat loss = 17646.4415 cont_loss = 66098.4600
+epoch = 152 validation loss = 5052.3380 cat loss = 5387.2013 cont loss = 4717.4748
+epoch = 153 loss = 41888.9360 cat loss = 17648.6287 cont_loss = 66129.2434
+epoch = 153 validation loss = 5050.0360 cat loss = 5383.4957 cont loss = 4716.5765
+epoch = 154 loss = 41914.1016 cat loss = 17670.6334 cont_loss = 66157.5696
+epoch = 154 validation loss = 5053.4007 cat loss = 5386.0153 cont loss = 4720.7861
+epoch = 155 loss = 41907.6316 cat loss = 17648.1967 cont_loss = 66167.0665
+epoch = 155 validation loss = 5050.4461 cat loss = 5381.8470 cont loss = 4719.0451
+epoch = 156 loss = 41988.9675 cat loss = 17719.0894 cont_loss = 66258.8456
+epoch = 156 validation loss = 5056.0886 cat loss = 5387.7762 cont loss = 4724.4010
+epoch = 157 loss = 41895.8115 cat loss = 17639.9113 cont_loss = 66151.7116
+epoch = 157 validation loss = 5055.1119 cat loss = 5390.4720 cont loss = 4719.7519
+epoch = 158 loss = 41878.5009 cat loss = 17634.9057 cont_loss = 66122.0961
+epoch = 158 validation loss = 5053.8893 cat loss = 5387.4868 cont loss = 4720.2917
+epoch = 159 loss = 41913.2412 cat loss = 17653.2238 cont_loss = 66173.2587
+epoch = 159 validation loss = 5057.7697 cat loss = 5391.2340 cont loss = 4724.3053
+epoch = 160 loss = 41906.0685 cat loss = 17644.2113 cont_loss = 66167.9256
+epoch = 160 validation loss = 5050.6508 cat loss = 5380.9273 cont loss = 4720.3745
+epoch = 161 loss = 41891.5841 cat loss = 17641.3810 cont_loss = 66141.7873
+epoch = 161 validation loss = 5055.3251 cat loss = 5387.8309 cont loss = 4722.8193
+epoch = 162 loss = 41941.9476 cat loss = 17615.5014 cont_loss = 66268.3937
+epoch = 162 validation loss = 5047.8280 cat loss = 5381.3288 cont loss = 4714.3273
+epoch = 163 loss = 41892.9938 cat loss = 17643.1500 cont_loss = 66142.8376
+epoch = 163 validation loss = 5052.0897 cat loss = 5380.7471 cont loss = 4723.4324
+epoch = 164 loss = 41914.8365 cat loss = 17665.5471 cont_loss = 66164.1257
+epoch = 164 validation loss = 5048.6603 cat loss = 5381.5343 cont loss = 4715.7863
+epoch = 165 loss = 41839.6511 cat loss = 17653.9201 cont_loss = 66025.3820
+epoch = 165 validation loss = 5054.9626 cat loss = 5386.7749 cont loss = 4723.1503
+epoch = 166 loss = 41903.9697 cat loss = 17662.0030 cont_loss = 66145.9364
+epoch = 166 validation loss = 5049.4126 cat loss = 5381.3812 cont loss = 4717.4440
+epoch = 167 loss = 41946.4338 cat loss = 17639.5678 cont_loss = 66253.2998
+epoch = 167 validation loss = 5047.5416 cat loss = 5379.3035 cont loss = 4715.7797
+epoch = 168 loss = 41927.0176 cat loss = 17665.7296 cont_loss = 66188.3056
+epoch = 168 validation loss = 5052.8600 cat loss = 5386.3465 cont loss = 4719.3734
+epoch = 169 loss = 41852.9857 cat loss = 17593.3514 cont_loss = 66112.6199
+epoch = 169 validation loss = 5050.6081 cat loss = 5384.7038 cont loss = 4716.5124
+epoch = 170 loss = 41935.1923 cat loss = 17667.1953 cont_loss = 66203.1894
+epoch = 170 validation loss = 5051.1927 cat loss = 5386.2055 cont loss = 4716.1799
+epoch = 171 loss = 41913.7964 cat loss = 17661.8751 cont_loss = 66165.7178
+epoch = 171 validation loss = 5052.2160 cat loss = 5386.0255 cont loss = 4718.4065
+epoch = 172 loss = 41847.8481 cat loss = 17633.9140 cont_loss = 66061.7822
+epoch = 172 validation loss = 5050.6260 cat loss = 5383.6776 cont loss = 4717.5745
+epoch = 173 loss = 41861.3467 cat loss = 17678.7736 cont_loss = 66043.9198
+epoch = 173 validation loss = 5053.3962 cat loss = 5388.9440 cont loss = 4717.8483
+epoch = 174 loss = 41847.9149 cat loss = 17653.0047 cont_loss = 66042.8251
+epoch = 174 validation loss = 5051.8389 cat loss = 5381.7896 cont loss = 4721.8882
+epoch = 175 loss = 41876.0090 cat loss = 17633.2322 cont_loss = 66118.7859
+epoch = 175 validation loss = 5049.0330 cat loss = 5380.0617 cont loss = 4718.0044
+epoch = 176 loss = 41888.9927 cat loss = 17678.3393 cont_loss = 66099.6460
+epoch = 176 validation loss = 5054.9095 cat loss = 5388.3155 cont loss = 4721.5034
+epoch = 177 loss = 41868.0307 cat loss = 17641.7101 cont_loss = 66094.3513
+epoch = 177 validation loss = 5053.4316 cat loss = 5386.4165 cont loss = 4720.4468
+epoch = 178 loss = 41900.9500 cat loss = 17662.5717 cont_loss = 66139.3282
+epoch = 178 validation loss = 5053.2574 cat loss = 5388.5081 cont loss = 4718.0067
+epoch = 179 loss = 41944.5611 cat loss = 17663.7262 cont_loss = 66225.3961
+epoch = 179 validation loss = 5051.8360 cat loss = 5381.9948 cont loss = 4721.6771
+epoch = 180 loss = 41944.9008 cat loss = 17640.2233 cont_loss = 66249.5783
+epoch = 180 validation loss = 5046.2037 cat loss = 5377.0049 cont loss = 4715.4024
+epoch = 181 loss = 41882.0045 cat loss = 17672.5733 cont_loss = 66091.4357
+epoch = 181 validation loss = 5047.6278 cat loss = 5380.8724 cont loss = 4714.3832
+epoch = 182 loss = 41880.0853 cat loss = 17663.0973 cont_loss = 66097.0732
+epoch = 182 validation loss = 5056.0781 cat loss = 5388.7292 cont loss = 4723.4269
+epoch = 183 loss = 41877.8886 cat loss = 17643.8866 cont_loss = 66111.8906
+epoch = 183 validation loss = 5050.8704 cat loss = 5387.0819 cont loss = 4714.6588
+epoch = 184 loss = 41902.3818 cat loss = 17636.5343 cont_loss = 66168.2295
+epoch = 184 validation loss = 5057.4321 cat loss = 5391.4209 cont loss = 4723.4434
+epoch = 185 loss = 41846.6827 cat loss = 17616.8328 cont_loss = 66076.5326
+epoch = 185 validation loss = 5055.9949 cat loss = 5392.2046 cont loss = 4719.7853
+epoch = 186 loss = 41858.7801 cat loss = 17639.4355 cont_loss = 66078.1247
+epoch = 186 validation loss = 5046.9168 cat loss = 5375.4825 cont loss = 4718.3512
+epoch = 187 loss = 41954.6526 cat loss = 17665.8704 cont_loss = 66243.4348
+epoch = 187 validation loss = 5049.6876 cat loss = 5382.6757 cont loss = 4716.6995
+epoch = 188 loss = 41956.9113 cat loss = 17692.5207 cont_loss = 66221.3017
+epoch = 188 validation loss = 5050.0088 cat loss = 5383.6327 cont loss = 4716.3849
+epoch = 189 loss = 41905.9430 cat loss = 17607.0951 cont_loss = 66204.7910
+epoch = 189 validation loss = 5049.2614 cat loss = 5380.8236 cont loss = 4717.6992
+epoch = 190 loss = 41865.3304 cat loss = 17653.5569 cont_loss = 66077.1040
+epoch = 190 validation loss = 5046.9820 cat loss = 5378.5104 cont loss = 4715.4536
+epoch = 191 loss = 41953.7350 cat loss = 17689.8113 cont_loss = 66217.6586
+epoch = 191 validation loss = 5053.5416 cat loss = 5386.4751 cont loss = 4720.6082
+epoch = 192 loss = 41934.8084 cat loss = 17679.3299 cont_loss = 66190.2867
+epoch = 192 validation loss = 5047.2438 cat loss = 5382.1759 cont loss = 4712.3115
+epoch = 193 loss = 41916.0831 cat loss = 17650.4941 cont_loss = 66181.6721
+epoch = 193 validation loss = 5056.2475 cat loss = 5391.5019 cont loss = 4720.9932
+epoch = 194 loss = 41898.2180 cat loss = 17636.3806 cont_loss = 66160.0555
+epoch = 194 validation loss = 5053.1113 cat loss = 5384.4114 cont loss = 4721.8112
+epoch = 195 loss = 41870.7523 cat loss = 17621.1923 cont_loss = 66120.3124
+epoch = 195 validation loss = 5048.8411 cat loss = 5380.4202 cont loss = 4717.2619
+epoch = 196 loss = 41971.5623 cat loss = 17661.7280 cont_loss = 66281.3967
+epoch = 196 validation loss = 5053.3441 cat loss = 5390.2876 cont loss = 4716.4005
+epoch = 197 loss = 41955.7944 cat loss = 17660.4502 cont_loss = 66251.1385
+epoch = 197 validation loss = 5053.6069 cat loss = 5388.5859 cont loss = 4718.6279
+epoch = 198 loss = 41926.1366 cat loss = 17653.3633 cont_loss = 66198.9097
+epoch = 198 validation loss = 5049.2815 cat loss = 5380.1672 cont loss = 4718.3958
+epoch = 199 loss = 41970.3846 cat loss = 17693.4990 cont_loss = 66247.2700
+epoch = 199 validation loss = 5054.2038 cat loss = 5385.6688 cont loss = 4722.7388
+epoch = 200 loss = 41866.0012 cat loss = 17590.1389 cont_loss = 66141.8635
+epoch = 200 validation loss = 5051.7514 cat loss = 5384.9201 cont loss = 4718.5828
+epoch = 201 loss = 41877.4361 cat loss = 17654.0203 cont_loss = 66100.8519
+epoch = 201 validation loss = 5057.7347 cat loss = 5389.0235 cont loss = 4726.4458
+epoch = 202 loss = 41870.3442 cat loss = 17590.5763 cont_loss = 66150.1121
+epoch = 202 validation loss = 5053.0984 cat loss = 5385.3502 cont loss = 4720.8467
+epoch = 203 loss = 41865.5517 cat loss = 17641.7480 cont_loss = 66089.3554
+epoch = 203 validation loss = 5059.8478 cat loss = 5393.7604 cont loss = 4725.9352
+epoch = 204 loss = 41901.1343 cat loss = 17652.0011 cont_loss = 66150.2676
+epoch = 204 validation loss = 5052.0385 cat loss = 5388.8149 cont loss = 4715.2621
+epoch = 205 loss = 41890.1184 cat loss = 17616.5297 cont_loss = 66163.7070
+epoch = 205 validation loss = 5049.9778 cat loss = 5378.5986 cont loss = 4721.3570
+epoch = 206 loss = 41907.7952 cat loss = 17672.7245 cont_loss = 66142.8660
+epoch = 206 validation loss = 5051.2523 cat loss = 5386.7294 cont loss = 4715.7754
+epoch = 207 loss = 41834.7490 cat loss = 17618.9622 cont_loss = 66050.5359
+epoch = 207 validation loss = 5048.8790 cat loss = 5384.2151 cont loss = 4713.5429
+epoch = 208 loss = 41850.6830 cat loss = 17644.2880 cont_loss = 66057.0779
+epoch = 208 validation loss = 5050.2568 cat loss = 5383.0425 cont loss = 4717.4711
+epoch = 209 loss = 41908.2434 cat loss = 17655.4324 cont_loss = 66161.0545
+epoch = 209 validation loss = 5048.6146 cat loss = 5382.0207 cont loss = 4715.2085
+epoch = 210 loss = 41881.8716 cat loss = 17632.0878 cont_loss = 66131.6552
+epoch = 210 validation loss = 5050.3068 cat loss = 5381.9309 cont loss = 4718.6826
+epoch = 211 loss = 41889.6901 cat loss = 17621.6325 cont_loss = 66157.7477
+epoch = 211 validation loss = 5063.7114 cat loss = 5396.1772 cont loss = 4731.2455
+epoch = 212 loss = 41906.2088 cat loss = 17609.4373 cont_loss = 66202.9805
+epoch = 212 validation loss = 5053.9181 cat loss = 5388.0631 cont loss = 4719.7731
+epoch = 213 loss = 41868.2452 cat loss = 17645.6442 cont_loss = 66090.8463
+epoch = 213 validation loss = 5052.4621 cat loss = 5386.3992 cont loss = 4718.5250
+epoch = 214 loss = 41918.7857 cat loss = 17658.0791 cont_loss = 66179.4923
+epoch = 214 validation loss = 5054.1202 cat loss = 5386.2905 cont loss = 4721.9498
+epoch = 215 loss = 41977.9553 cat loss = 17653.5398 cont_loss = 66302.3708
+epoch = 215 validation loss = 5055.8904 cat loss = 5390.0922 cont loss = 4721.6887
+epoch = 216 loss = 41897.5822 cat loss = 17643.1262 cont_loss = 66152.0383
+epoch = 216 validation loss = 5050.9630 cat loss = 5383.4528 cont loss = 4718.4732
+epoch = 217 loss = 41912.8570 cat loss = 17668.0422 cont_loss = 66157.6719
+epoch = 217 validation loss = 5053.1190 cat loss = 5387.9703 cont loss = 4718.2677
+epoch = 218 loss = 41935.4911 cat loss = 17638.2100 cont_loss = 66232.7724
+epoch = 218 validation loss = 5047.0352 cat loss = 5379.6879 cont loss = 4714.3824
+epoch = 219 loss = 41880.0788 cat loss = 17657.9823 cont_loss = 66102.1753
+epoch = 219 validation loss = 5051.3172 cat loss = 5381.4195 cont loss = 4721.2148
+epoch = 220 loss = 41932.1066 cat loss = 17664.1772 cont_loss = 66200.0359
+epoch = 220 validation loss = 5051.1982 cat loss = 5386.0659 cont loss = 4716.3304
+epoch = 221 loss = 41892.5022 cat loss = 17668.6020 cont_loss = 66116.4024
+epoch = 221 validation loss = 5052.1238 cat loss = 5385.2615 cont loss = 4718.9861
+epoch = 222 loss = 41869.1918 cat loss = 17649.9875 cont_loss = 66088.3961
+epoch = 222 validation loss = 5051.3277 cat loss = 5384.2187 cont loss = 4718.4366
+epoch = 223 loss = 41915.7687 cat loss = 17635.8776 cont_loss = 66195.6597
+epoch = 223 validation loss = 5052.0663 cat loss = 5386.2647 cont loss = 4717.8680
+epoch = 224 loss = 41849.1612 cat loss = 17620.1302 cont_loss = 66078.1921
+epoch = 224 validation loss = 5052.0821 cat loss = 5382.5553 cont loss = 4721.6090
+epoch = 225 loss = 41911.3530 cat loss = 17676.4013 cont_loss = 66146.3047
+epoch = 225 validation loss = 5049.0708 cat loss = 5382.6403 cont loss = 4715.5012
+epoch = 226 loss = 41899.1582 cat loss = 17667.8890 cont_loss = 66130.4275
+epoch = 226 validation loss = 5052.7087 cat loss = 5385.9126 cont loss = 4719.5048
+epoch = 227 loss = 41913.6950 cat loss = 17644.1904 cont_loss = 66183.1998
+epoch = 227 validation loss = 5049.2475 cat loss = 5381.9124 cont loss = 4716.5826
+epoch = 228 loss = 41870.2884 cat loss = 17643.1108 cont_loss = 66097.4658
+epoch = 228 validation loss = 5051.2503 cat loss = 5381.8000 cont loss = 4720.7006
+epoch = 229 loss = 41899.4443 cat loss = 17655.3775 cont_loss = 66143.5111
+epoch = 229 validation loss = 5052.7695 cat loss = 5388.1124 cont loss = 4717.4265
+epoch = 230 loss = 41937.4741 cat loss = 17648.5373 cont_loss = 66226.4111
+epoch = 230 validation loss = 5047.8241 cat loss = 5373.5641 cont loss = 4722.0840
+epoch = 231 loss = 41868.0573 cat loss = 17647.0833 cont_loss = 66089.0313
+epoch = 231 validation loss = 5052.9066 cat loss = 5387.7272 cont loss = 4718.0859
+epoch = 232 loss = 41913.1044 cat loss = 17674.0508 cont_loss = 66152.1582
+epoch = 232 validation loss = 5049.4864 cat loss = 5383.3980 cont loss = 4715.5749
+epoch = 233 loss = 41857.3066 cat loss = 17634.9598 cont_loss = 66079.6534
+epoch = 233 validation loss = 5053.2149 cat loss = 5389.1273 cont loss = 4717.3024
+epoch = 234 loss = 41907.2760 cat loss = 17678.8711 cont_loss = 66135.6808
+epoch = 234 validation loss = 5052.2736 cat loss = 5386.5469 cont loss = 4718.0002
+epoch = 235 loss = 41940.1826 cat loss = 17671.9248 cont_loss = 66208.4403
+epoch = 235 validation loss = 5051.4756 cat loss = 5386.6718 cont loss = 4716.2795
+epoch = 236 loss = 41865.0567 cat loss = 17643.2677 cont_loss = 66086.8457
+epoch = 236 validation loss = 5054.1992 cat loss = 5386.9127 cont loss = 4721.4858
+epoch = 237 loss = 41941.3136 cat loss = 17683.4490 cont_loss = 66199.1782
+epoch = 237 validation loss = 5060.3920 cat loss = 5392.7475 cont loss = 4728.0365
+epoch = 238 loss = 41959.3208 cat loss = 17648.4049 cont_loss = 66270.2367
+epoch = 238 validation loss = 5047.6880 cat loss = 5376.1369 cont loss = 4719.2391
+epoch = 239 loss = 41942.7916 cat loss = 17666.3972 cont_loss = 66219.1860
+epoch = 239 validation loss = 5061.4939 cat loss = 5394.8273 cont loss = 4728.1606
+epoch = 240 loss = 41908.0597 cat loss = 17631.2725 cont_loss = 66184.8467
+epoch = 240 validation loss = 5057.8829 cat loss = 5394.3452 cont loss = 4721.4206
+epoch = 241 loss = 41912.7002 cat loss = 17647.2124 cont_loss = 66178.1880
+epoch = 241 validation loss = 5048.0006 cat loss = 5377.1348 cont loss = 4718.8664
+epoch = 242 loss = 41855.4022 cat loss = 17644.8674 cont_loss = 66065.9372
+epoch = 242 validation loss = 5051.7528 cat loss = 5386.4943 cont loss = 4717.0111
+epoch = 243 loss = 41882.3120 cat loss = 17604.9647 cont_loss = 66159.6593
+epoch = 243 validation loss = 5057.0328 cat loss = 5392.0639 cont loss = 4722.0016
+epoch = 244 loss = 41951.7660 cat loss = 17647.6788 cont_loss = 66255.8531
+epoch = 244 validation loss = 5051.4349 cat loss = 5379.7546 cont loss = 4723.1152
+epoch = 245 loss = 41922.9496 cat loss = 17651.3423 cont_loss = 66194.5570
+epoch = 245 validation loss = 5055.7670 cat loss = 5389.6991 cont loss = 4721.8348
+epoch = 246 loss = 41922.2558 cat loss = 17663.7909 cont_loss = 66180.7207
+epoch = 246 validation loss = 5048.8655 cat loss = 5378.2246 cont loss = 4719.5065
+epoch = 247 loss = 41918.8100 cat loss = 17673.4323 cont_loss = 66164.1875
+epoch = 247 validation loss = 5047.1688 cat loss = 5378.0437 cont loss = 4716.2940
+epoch = 248 loss = 41926.7098 cat loss = 17658.0053 cont_loss = 66195.4142
+epoch = 248 validation loss = 5052.3329 cat loss = 5386.4754 cont loss = 4718.1904
+epoch = 249 loss = 41878.7724 cat loss = 17648.9963 cont_loss = 66108.5483
+epoch = 249 validation loss = 5057.5286 cat loss = 5390.8204 cont loss = 4724.2367
+epoch = 250 loss = 41930.9905 cat loss = 17670.7378 cont_loss = 66191.2432
+epoch = 250 validation loss = 5057.4017 cat loss = 5389.4968 cont loss = 4725.3066
+epoch = 251 loss = 41910.4545 cat loss = 17668.1718 cont_loss = 66152.7372
+epoch = 251 validation loss = 5047.3472 cat loss = 5382.4521 cont loss = 4712.2423
+epoch = 252 loss = 41930.3743 cat loss = 17643.7888 cont_loss = 66216.9597
+epoch = 252 validation loss = 5054.9282 cat loss = 5388.8352 cont loss = 4721.0213
+epoch = 253 loss = 41889.9321 cat loss = 17612.5263 cont_loss = 66167.3379
+epoch = 253 validation loss = 5051.1892 cat loss = 5383.4177 cont loss = 4718.9608
+epoch = 254 loss = 41855.8718 cat loss = 17618.7174 cont_loss = 66093.0263
+epoch = 254 validation loss = 5046.4820 cat loss = 5379.9080 cont loss = 4713.0560
+epoch = 255 loss = 41870.3038 cat loss = 17627.4431 cont_loss = 66113.1645
+epoch = 255 validation loss = 5057.4153 cat loss = 5392.6035 cont loss = 4722.2271
+epoch = 256 loss = 41881.8826 cat loss = 17647.8827 cont_loss = 66115.8825
+epoch = 256 validation loss = 5052.7432 cat loss = 5384.7469 cont loss = 4720.7395
+epoch = 257 loss = 41893.1243 cat loss = 17651.8658 cont_loss = 66134.3830
+epoch = 257 validation loss = 5057.4180 cat loss = 5392.1239 cont loss = 4722.7121
+epoch = 258 loss = 41886.1699 cat loss = 17650.7365 cont_loss = 66121.6033
+epoch = 258 validation loss = 5056.0083 cat loss = 5391.5315 cont loss = 4720.4851
+epoch = 259 loss = 41923.5787 cat loss = 17643.4268 cont_loss = 66203.7305
+epoch = 259 validation loss = 5048.2527 cat loss = 5381.1449 cont loss = 4715.3605
+epoch = 260 loss = 41904.6125 cat loss = 17634.5798 cont_loss = 66174.6452
+epoch = 260 validation loss = 5057.3021 cat loss = 5389.6236 cont loss = 4724.9806
+epoch = 261 loss = 41851.3026 cat loss = 17637.3884 cont_loss = 66065.2167
+epoch = 261 validation loss = 5054.3284 cat loss = 5389.4458 cont loss = 4719.2111
+epoch = 262 loss = 41905.8668 cat loss = 17642.0424 cont_loss = 66169.6912
+epoch = 262 validation loss = 5058.3481 cat loss = 5391.2811 cont loss = 4725.4151
+epoch = 263 loss = 41868.6472 cat loss = 17635.3677 cont_loss = 66101.9267
+epoch = 263 validation loss = 5051.9015 cat loss = 5383.0802 cont loss = 4720.7227
+epoch = 264 loss = 41876.7324 cat loss = 17624.8361 cont_loss = 66128.6286
+epoch = 264 validation loss = 5053.2891 cat loss = 5388.5081 cont loss = 4718.0701
+epoch = 265 loss = 41846.1435 cat loss = 17662.2577 cont_loss = 66030.0292
+epoch = 265 validation loss = 5056.7670 cat loss = 5388.7455 cont loss = 4724.7886
+epoch = 266 loss = 41934.4592 cat loss = 17684.9616 cont_loss = 66183.9570
+epoch = 266 validation loss = 5053.4186 cat loss = 5385.5575 cont loss = 4721.2796
+epoch = 267 loss = 41891.3798 cat loss = 17655.1202 cont_loss = 66127.6395
+epoch = 267 validation loss = 5053.3958 cat loss = 5387.8600 cont loss = 4718.9316
+epoch = 268 loss = 41873.7383 cat loss = 17608.0980 cont_loss = 66139.3787
+epoch = 268 validation loss = 5047.3641 cat loss = 5379.6232 cont loss = 4715.1050
+epoch = 269 loss = 41904.3255 cat loss = 17630.0468 cont_loss = 66178.6044
+epoch = 269 validation loss = 5054.2286 cat loss = 5388.2934 cont loss = 4720.1639
+epoch = 270 loss = 41909.7592 cat loss = 17659.7613 cont_loss = 66159.7570
+epoch = 270 validation loss = 5051.3871 cat loss = 5386.1251 cont loss = 4716.6491
+epoch = 271 loss = 41903.7800 cat loss = 17684.1180 cont_loss = 66123.4420
+epoch = 271 validation loss = 5051.3917 cat loss = 5382.9158 cont loss = 4719.8676
+epoch = 272 loss = 41923.3559 cat loss = 17651.8136 cont_loss = 66194.8984
+epoch = 272 validation loss = 5059.4912 cat loss = 5390.2997 cont loss = 4728.6828
+epoch = 273 loss = 41866.3218 cat loss = 17618.3023 cont_loss = 66114.3412
+epoch = 273 validation loss = 5051.1457 cat loss = 5380.3014 cont loss = 4721.9898
+epoch = 274 loss = 41869.8764 cat loss = 17652.2741 cont_loss = 66087.4787
+epoch = 274 validation loss = 5049.6369 cat loss = 5381.8951 cont loss = 4717.3787
+epoch = 275 loss = 41840.8114 cat loss = 17621.4815 cont_loss = 66060.1414
+epoch = 275 validation loss = 5052.5833 cat loss = 5388.0772 cont loss = 4717.0895
+epoch = 276 loss = 41878.0567 cat loss = 17605.2265 cont_loss = 66150.8869
+epoch = 276 validation loss = 5049.5566 cat loss = 5376.5921 cont loss = 4722.5210
+epoch = 277 loss = 41879.5319 cat loss = 17618.9459 cont_loss = 66140.1178
+epoch = 277 validation loss = 5046.3090 cat loss = 5378.5440 cont loss = 4714.0739
+epoch = 278 loss = 41893.6977 cat loss = 17666.5761 cont_loss = 66120.8194
+epoch = 278 validation loss = 5049.1577 cat loss = 5377.7727 cont loss = 4720.5427
+epoch = 279 loss = 41964.6826 cat loss = 17689.7573 cont_loss = 66239.6080
+epoch = 279 validation loss = 5051.7632 cat loss = 5388.7882 cont loss = 4714.7382
+epoch = 280 loss = 41886.5948 cat loss = 17627.1704 cont_loss = 66146.0192
+epoch = 280 validation loss = 5045.7444 cat loss = 5378.5903 cont loss = 4712.8985
+epoch = 281 loss = 41928.6256 cat loss = 17642.7739 cont_loss = 66214.4773
+epoch = 281 validation loss = 5050.0052 cat loss = 5384.6467 cont loss = 4715.3638
+epoch = 282 loss = 41851.1933 cat loss = 17623.7274 cont_loss = 66078.6590
+epoch = 282 validation loss = 5047.2327 cat loss = 5371.6103 cont loss = 4722.8552
+epoch = 283 loss = 41911.5346 cat loss = 17648.9553 cont_loss = 66174.1140
+epoch = 283 validation loss = 5048.8791 cat loss = 5380.0941 cont loss = 4717.6641
+epoch = 284 loss = 41924.8181 cat loss = 17647.0223 cont_loss = 66202.6139
+epoch = 284 validation loss = 5052.8415 cat loss = 5388.0314 cont loss = 4717.6515
+epoch = 285 loss = 41864.1135 cat loss = 17632.8424 cont_loss = 66095.3846
+epoch = 285 validation loss = 5058.9700 cat loss = 5390.9825 cont loss = 4726.9574
+epoch = 286 loss = 41860.3984 cat loss = 17661.4913 cont_loss = 66059.3054
+epoch = 286 validation loss = 5055.7244 cat loss = 5389.4528 cont loss = 4721.9959
+epoch = 287 loss = 41931.1174 cat loss = 17681.3354 cont_loss = 66180.8996
+epoch = 287 validation loss = 5060.7482 cat loss = 5392.7094 cont loss = 4728.7869
+epoch = 288 loss = 41865.3575 cat loss = 17622.7780 cont_loss = 66107.9369
+epoch = 288 validation loss = 5052.4703 cat loss = 5386.9444 cont loss = 4717.9962
+epoch = 289 loss = 41894.8879 cat loss = 17648.9944 cont_loss = 66140.7814
+epoch = 289 validation loss = 5054.6386 cat loss = 5390.4503 cont loss = 4718.8268
+epoch = 290 loss = 41867.3334 cat loss = 17637.7590 cont_loss = 66096.9077
+epoch = 290 validation loss = 5049.9260 cat loss = 5383.4930 cont loss = 4716.3589
+epoch = 291 loss = 41941.6842 cat loss = 17658.8511 cont_loss = 66224.5172
+epoch = 291 validation loss = 5056.0938 cat loss = 5390.7997 cont loss = 4721.3879
+epoch = 292 loss = 41847.7917 cat loss = 17623.5478 cont_loss = 66072.0356
+epoch = 292 validation loss = 5054.7952 cat loss = 5388.6387 cont loss = 4720.9519
+epoch = 293 loss = 41903.0767 cat loss = 17690.2947 cont_loss = 66115.8586
+epoch = 293 validation loss = 5058.8785 cat loss = 5393.2225 cont loss = 4724.5346
+epoch = 294 loss = 41913.4850 cat loss = 17669.0149 cont_loss = 66157.9551
+epoch = 294 validation loss = 5049.6580 cat loss = 5379.5629 cont loss = 4719.7532
+epoch = 295 loss = 41843.3988 cat loss = 17639.9983 cont_loss = 66046.7990
+epoch = 295 validation loss = 5051.0877 cat loss = 5384.8784 cont loss = 4717.2971
+epoch = 296 loss = 41915.9009 cat loss = 17657.4068 cont_loss = 66174.3951
+epoch = 296 validation loss = 5050.2189 cat loss = 5384.5879 cont loss = 4715.8499
+epoch = 297 loss = 41881.1917 cat loss = 17637.9873 cont_loss = 66124.3960
+epoch = 297 validation loss = 5053.4993 cat loss = 5387.8723 cont loss = 4719.1263
+epoch = 298 loss = 41877.1651 cat loss = 17630.8653 cont_loss = 66123.4650
+epoch = 298 validation loss = 5055.1976 cat loss = 5387.4367 cont loss = 4722.9585
+epoch = 299 loss = 41893.9653 cat loss = 17651.0863 cont_loss = 66136.8444
+epoch = 299 validation loss = 5050.5286 cat loss = 5382.9857 cont loss = 4718.0715
+epoch = 300 loss = 41908.3486 cat loss = 17659.5946 cont_loss = 66157.1026
+epoch = 300 validation loss = 5050.0618 cat loss = 5382.0951 cont loss = 4718.0286
+epoch = 301 loss = 41916.0616 cat loss = 17685.2195 cont_loss = 66146.9039
+epoch = 301 validation loss = 5058.2295 cat loss = 5393.9481 cont loss = 4722.5108
+epoch = 302 loss = 41891.4318 cat loss = 17654.0464 cont_loss = 66128.8171
+epoch = 302 validation loss = 5052.7840 cat loss = 5384.4174 cont loss = 4721.1507
+epoch = 303 loss = 41854.9175 cat loss = 17645.6652 cont_loss = 66064.1698
+epoch = 303 validation loss = 5054.7400 cat loss = 5387.3356 cont loss = 4722.1444
+epoch = 304 loss = 41903.8743 cat loss = 17642.4430 cont_loss = 66165.3053
+epoch = 304 validation loss = 5052.4438 cat loss = 5383.9914 cont loss = 4720.8962
+epoch = 305 loss = 41865.1572 cat loss = 17631.3166 cont_loss = 66098.9979
+epoch = 305 validation loss = 5054.7773 cat loss = 5389.4140 cont loss = 4720.1407
+epoch = 306 loss = 41942.4448 cat loss = 17663.9679 cont_loss = 66220.9219
+epoch = 306 validation loss = 5056.6407 cat loss = 5391.9110 cont loss = 4721.3704
+epoch = 307 loss = 41870.8060 cat loss = 17610.2445 cont_loss = 66131.3676
+epoch = 307 validation loss = 5055.9435 cat loss = 5391.2760 cont loss = 4720.6111
+epoch = 308 loss = 41898.6991 cat loss = 17656.7315 cont_loss = 66140.6669
+epoch = 308 validation loss = 5054.9801 cat loss = 5390.3274 cont loss = 4719.6327
+epoch = 309 loss = 41917.6012 cat loss = 17623.1458 cont_loss = 66212.0567
+epoch = 309 validation loss = 5062.9198 cat loss = 5395.4953 cont loss = 4730.3444
+epoch = 310 loss = 41840.5014 cat loss = 17598.0769 cont_loss = 66082.9259
+epoch = 310 validation loss = 5047.9035 cat loss = 5376.4958 cont loss = 4719.3112
+epoch = 311 loss = 41876.6987 cat loss = 17637.1385 cont_loss = 66116.2590
+epoch = 311 validation loss = 5048.8810 cat loss = 5380.1771 cont loss = 4717.5849
+epoch = 312 loss = 41891.9882 cat loss = 17660.4935 cont_loss = 66123.4829
+epoch = 312 validation loss = 5054.1353 cat loss = 5389.5738 cont loss = 4718.6968
+epoch = 313 loss = 41853.0222 cat loss = 17663.3837 cont_loss = 66042.6607
+epoch = 313 validation loss = 5052.6598 cat loss = 5388.5358 cont loss = 4716.7838
+epoch = 314 loss = 41916.0346 cat loss = 17613.1259 cont_loss = 66218.9433
+epoch = 314 validation loss = 5058.7509 cat loss = 5391.6437 cont loss = 4725.8580
+epoch = 315 loss = 41918.5476 cat loss = 17613.8287 cont_loss = 66223.2664
+epoch = 315 validation loss = 5052.1614 cat loss = 5386.0763 cont loss = 4718.2465
+epoch = 316 loss = 41903.4545 cat loss = 17656.6376 cont_loss = 66150.2715
+epoch = 316 validation loss = 5049.1970 cat loss = 5381.6162 cont loss = 4716.7778
+epoch = 317 loss = 41898.4727 cat loss = 17676.2897 cont_loss = 66120.6558
+epoch = 317 validation loss = 5054.7995 cat loss = 5388.2753 cont loss = 4721.3236
+epoch = 318 loss = 41889.0664 cat loss = 17637.6498 cont_loss = 66140.4830
+epoch = 318 validation loss = 5056.8808 cat loss = 5391.0678 cont loss = 4722.6939
+epoch = 319 loss = 41909.5549 cat loss = 17678.9489 cont_loss = 66140.1608
+epoch = 319 validation loss = 5050.9460 cat loss = 5382.2740 cont loss = 4719.6179
+epoch = 320 loss = 41874.1034 cat loss = 17628.2742 cont_loss = 66119.9326
+epoch = 320 validation loss = 5045.7039 cat loss = 5378.8623 cont loss = 4712.5456
+epoch = 321 loss = 41926.9254 cat loss = 17645.6285 cont_loss = 66208.2223
+epoch = 321 validation loss = 5052.4987 cat loss = 5387.0403 cont loss = 4717.9573
+epoch = 322 loss = 41839.0705 cat loss = 17601.1302 cont_loss = 66077.0110
+epoch = 322 validation loss = 5049.3364 cat loss = 5386.0858 cont loss = 4712.5870
+epoch = 323 loss = 41917.5066 cat loss = 17660.2971 cont_loss = 66174.7161
+epoch = 323 validation loss = 5048.6288 cat loss = 5379.6387 cont loss = 4717.6189
+epoch = 324 loss = 41906.8122 cat loss = 17685.2740 cont_loss = 66128.3501
+epoch = 324 validation loss = 5049.6901 cat loss = 5379.7073 cont loss = 4719.6728
+epoch = 325 loss = 41907.6553 cat loss = 17654.4748 cont_loss = 66160.8361
+epoch = 325 validation loss = 5051.1220 cat loss = 5379.0021 cont loss = 4723.2419
+epoch = 326 loss = 41888.9231 cat loss = 17674.2893 cont_loss = 66103.5571
+epoch = 326 validation loss = 5053.0796 cat loss = 5383.1401 cont loss = 4723.0191
+epoch = 327 loss = 41891.3502 cat loss = 17620.5855 cont_loss = 66162.1148
+epoch = 327 validation loss = 5055.6816 cat loss = 5388.3196 cont loss = 4723.0438
+epoch = 328 loss = 41885.2105 cat loss = 17670.2518 cont_loss = 66100.1692
+epoch = 328 validation loss = 5049.2539 cat loss = 5384.3888 cont loss = 4714.1189
+epoch = 329 loss = 41880.2501 cat loss = 17638.7739 cont_loss = 66121.7262
+epoch = 329 validation loss = 5055.6444 cat loss = 5391.3466 cont loss = 4719.9422
+epoch = 330 loss = 41881.5259 cat loss = 17691.3209 cont_loss = 66071.7311
+epoch = 330 validation loss = 5048.7360 cat loss = 5374.2771 cont loss = 4723.1948
+epoch = 331 loss = 41891.4382 cat loss = 17604.3471 cont_loss = 66178.5295
+epoch = 331 validation loss = 5056.7762 cat loss = 5391.4193 cont loss = 4722.1331
+epoch = 332 loss = 41852.8352 cat loss = 17638.8528 cont_loss = 66066.8176
+epoch = 332 validation loss = 5053.8523 cat loss = 5388.5359 cont loss = 4719.1687
+epoch = 333 loss = 41899.4097 cat loss = 17617.4251 cont_loss = 66181.3943
+epoch = 333 validation loss = 5055.0659 cat loss = 5387.1770 cont loss = 4722.9548
+epoch = 334 loss = 41947.3849 cat loss = 17676.0399 cont_loss = 66218.7300
+epoch = 334 validation loss = 5054.8213 cat loss = 5387.8006 cont loss = 4721.8420
+epoch = 335 loss = 41911.3527 cat loss = 17648.8293 cont_loss = 66173.8761
+epoch = 335 validation loss = 5049.2287 cat loss = 5380.4027 cont loss = 4718.0546
+epoch = 336 loss = 41889.5404 cat loss = 17674.9830 cont_loss = 66104.0980
+epoch = 336 validation loss = 5049.8709 cat loss = 5379.8921 cont loss = 4719.8497
+epoch = 337 loss = 41928.7101 cat loss = 17629.9930 cont_loss = 66227.4270
+epoch = 337 validation loss = 5050.9887 cat loss = 5387.9072 cont loss = 4714.0703
+epoch = 338 loss = 41851.6379 cat loss = 17641.1776 cont_loss = 66062.0982
+epoch = 338 validation loss = 5057.7677 cat loss = 5391.8272 cont loss = 4723.7082
+epoch = 339 loss = 41967.7108 cat loss = 17653.0735 cont_loss = 66282.3482
+epoch = 339 validation loss = 5054.8957 cat loss = 5388.4245 cont loss = 4721.3669
+epoch = 340 loss = 41919.3829 cat loss = 17687.8127 cont_loss = 66150.9531
+epoch = 340 validation loss = 5057.8799 cat loss = 5389.9188 cont loss = 4725.8411
+epoch = 341 loss = 41809.5431 cat loss = 17602.3814 cont_loss = 66016.7046
+epoch = 341 validation loss = 5049.3717 cat loss = 5380.8396 cont loss = 4717.9039
+epoch = 342 loss = 41881.8769 cat loss = 17646.1217 cont_loss = 66117.6322
+epoch = 342 validation loss = 5052.8567 cat loss = 5386.8892 cont loss = 4718.8242
+epoch = 343 loss = 41931.8816 cat loss = 17638.1272 cont_loss = 66225.6361
+epoch = 343 validation loss = 5051.5812 cat loss = 5385.2525 cont loss = 4717.9100
+epoch = 344 loss = 41828.3485 cat loss = 17629.7388 cont_loss = 66026.9581
+epoch = 344 validation loss = 5047.4679 cat loss = 5377.8485 cont loss = 4717.0873
+epoch = 345 loss = 41885.4781 cat loss = 17666.5463 cont_loss = 66104.4098
+epoch = 345 validation loss = 5049.2815 cat loss = 5382.8910 cont loss = 4715.6721
+epoch = 346 loss = 41863.9004 cat loss = 17640.8150 cont_loss = 66086.9859
+epoch = 346 validation loss = 5048.8829 cat loss = 5384.5893 cont loss = 4713.1764
+epoch = 347 loss = 41892.3630 cat loss = 17615.8769 cont_loss = 66168.8490
+epoch = 347 validation loss = 5059.2937 cat loss = 5394.2035 cont loss = 4724.3839
+epoch = 348 loss = 41944.6451 cat loss = 17664.0843 cont_loss = 66225.2057
+epoch = 348 validation loss = 5053.5156 cat loss = 5387.6162 cont loss = 4719.4150
+epoch = 349 loss = 41950.3937 cat loss = 17684.8492 cont_loss = 66215.9381
+epoch = 349 validation loss = 5062.6688 cat loss = 5396.8607 cont loss = 4728.4768
+epoch = 350 loss = 41821.9719 cat loss = 17595.4460 cont_loss = 66048.4978
+epoch = 350 validation loss = 5058.6159 cat loss = 5390.4383 cont loss = 4726.7936
+epoch = 351 loss = 41891.8389 cat loss = 17637.7933 cont_loss = 66145.8844
+epoch = 351 validation loss = 5056.5677 cat loss = 5386.2637 cont loss = 4726.8717
+epoch = 352 loss = 41923.9084 cat loss = 17683.6983 cont_loss = 66164.1185
+epoch = 352 validation loss = 5066.0874 cat loss = 5398.3282 cont loss = 4733.8466
+epoch = 353 loss = 41842.0433 cat loss = 17588.3777 cont_loss = 66095.7090
+epoch = 353 validation loss = 5051.5271 cat loss = 5386.3645 cont loss = 4716.6898
+epoch = 354 loss = 41831.1521 cat loss = 17657.7083 cont_loss = 66004.5961
+epoch = 354 validation loss = 5049.3326 cat loss = 5379.1478 cont loss = 4719.5173
+epoch = 355 loss = 41916.7199 cat loss = 17692.3487 cont_loss = 66141.0911
+epoch = 355 validation loss = 5059.7638 cat loss = 5392.1451 cont loss = 4727.3825
+epoch = 356 loss = 41852.1979 cat loss = 17603.1358 cont_loss = 66101.2601
+epoch = 356 validation loss = 5053.0893 cat loss = 5387.4202 cont loss = 4718.7584
+epoch = 357 loss = 41889.6801 cat loss = 17686.4488 cont_loss = 66092.9114
+epoch = 357 validation loss = 5050.9736 cat loss = 5385.9174 cont loss = 4716.0298
+epoch = 358 loss = 41940.4500 cat loss = 17649.3665 cont_loss = 66231.5333
+epoch = 358 validation loss = 5054.2789 cat loss = 5388.2114 cont loss = 4720.3464
+epoch = 359 loss = 41875.6009 cat loss = 17638.3133 cont_loss = 66112.8887
+epoch = 359 validation loss = 5057.9585 cat loss = 5391.7185 cont loss = 4724.1985
+epoch = 360 loss = 41874.1220 cat loss = 17699.5787 cont_loss = 66048.6654
+epoch = 360 validation loss = 5049.3156 cat loss = 5385.6798 cont loss = 4712.9513
+epoch = 361 loss = 41865.7931 cat loss = 17637.0155 cont_loss = 66094.5707
+epoch = 361 validation loss = 5052.8541 cat loss = 5388.0343 cont loss = 4717.6740
+epoch = 362 loss = 41872.1796 cat loss = 17682.5019 cont_loss = 66061.8573
+epoch = 362 validation loss = 5049.4089 cat loss = 5384.1710 cont loss = 4714.6468
+epoch = 363 loss = 41869.3640 cat loss = 17628.7118 cont_loss = 66110.0163
+epoch = 363 validation loss = 5052.4080 cat loss = 5383.7459 cont loss = 4721.0702
+epoch = 364 loss = 41913.4343 cat loss = 17615.7297 cont_loss = 66211.1390
+epoch = 364 validation loss = 5054.1176 cat loss = 5388.7749 cont loss = 4719.4603
+epoch = 365 loss = 41862.6451 cat loss = 17616.4602 cont_loss = 66108.8299
+epoch = 365 validation loss = 5061.7751 cat loss = 5394.6759 cont loss = 4728.8742
+epoch = 366 loss = 41900.0923 cat loss = 17670.7457 cont_loss = 66129.4390
+epoch = 366 validation loss = 5067.4476 cat loss = 5399.7730 cont loss = 4735.1223
+epoch = 367 loss = 41888.0570 cat loss = 17707.5955 cont_loss = 66068.5184
+epoch = 367 validation loss = 5056.2075 cat loss = 5390.9854 cont loss = 4721.4297
+epoch = 368 loss = 41885.5031 cat loss = 17637.5972 cont_loss = 66133.4091
+epoch = 368 validation loss = 5051.9781 cat loss = 5383.3910 cont loss = 4720.5651
+epoch = 369 loss = 41890.5832 cat loss = 17668.5709 cont_loss = 66112.5955
+epoch = 369 validation loss = 5057.4991 cat loss = 5391.2028 cont loss = 4723.7954
+epoch = 370 loss = 41953.4755 cat loss = 17662.6539 cont_loss = 66244.2969
+epoch = 370 validation loss = 5056.6078 cat loss = 5388.7121 cont loss = 4724.5034
+epoch = 371 loss = 41818.4425 cat loss = 17626.1231 cont_loss = 66010.7621
+epoch = 371 validation loss = 5047.5094 cat loss = 5383.9339 cont loss = 4711.0849
+epoch = 372 loss = 41876.7482 cat loss = 17680.2958 cont_loss = 66073.2007
+epoch = 372 validation loss = 5051.0141 cat loss = 5383.8429 cont loss = 4718.1854
+epoch = 373 loss = 41916.3877 cat loss = 17630.1632 cont_loss = 66202.6122
+epoch = 373 validation loss = 5055.1010 cat loss = 5388.4694 cont loss = 4721.7327
+epoch = 374 loss = 41929.2003 cat loss = 17678.2316 cont_loss = 66180.1688
+epoch = 374 validation loss = 5054.9581 cat loss = 5388.2341 cont loss = 4721.6822
+epoch = 375 loss = 41927.1194 cat loss = 17653.7463 cont_loss = 66200.4925
+epoch = 375 validation loss = 5054.7746 cat loss = 5391.5459 cont loss = 4718.0033
+epoch = 376 loss = 41863.3891 cat loss = 17665.1524 cont_loss = 66061.6260
+epoch = 376 validation loss = 5050.8006 cat loss = 5386.4069 cont loss = 4715.1942
+epoch = 377 loss = 41961.9539 cat loss = 17680.4031 cont_loss = 66243.5047
+epoch = 377 validation loss = 5051.7775 cat loss = 5385.7523 cont loss = 4717.8026
+epoch = 378 loss = 41915.8514 cat loss = 17668.1463 cont_loss = 66163.5566
+epoch = 378 validation loss = 5049.3435 cat loss = 5379.8104 cont loss = 4718.8765
+epoch = 379 loss = 41932.5168 cat loss = 17653.4522 cont_loss = 66211.5815
+epoch = 379 validation loss = 5057.2831 cat loss = 5392.3058 cont loss = 4722.2604
+epoch = 380 loss = 41886.8115 cat loss = 17621.0174 cont_loss = 66152.6053
+epoch = 380 validation loss = 5057.2697 cat loss = 5392.2424 cont loss = 4722.2971
+epoch = 381 loss = 41902.4865 cat loss = 17644.9772 cont_loss = 66159.9954
+epoch = 381 validation loss = 5059.2683 cat loss = 5389.8946 cont loss = 4728.6420
+epoch = 382 loss = 41890.9106 cat loss = 17628.8511 cont_loss = 66152.9700
+epoch = 382 validation loss = 5054.3469 cat loss = 5391.3239 cont loss = 4717.3698
+epoch = 383 loss = 41909.7655 cat loss = 17634.4215 cont_loss = 66185.1095
+epoch = 383 validation loss = 5056.3186 cat loss = 5391.4004 cont loss = 4721.2367
+epoch = 384 loss = 41910.7017 cat loss = 17680.1416 cont_loss = 66141.2618
+epoch = 384 validation loss = 5049.6971 cat loss = 5381.4720 cont loss = 4717.9222
+epoch = 385 loss = 41898.5585 cat loss = 17639.7784 cont_loss = 66157.3387
+epoch = 385 validation loss = 5051.5157 cat loss = 5384.8064 cont loss = 4718.2250
+epoch = 386 loss = 41880.8881 cat loss = 17662.8160 cont_loss = 66098.9601
+epoch = 386 validation loss = 5051.4466 cat loss = 5381.3661 cont loss = 4721.5271
+epoch = 387 loss = 41851.9435 cat loss = 17646.5484 cont_loss = 66057.3385
+epoch = 387 validation loss = 5054.1650 cat loss = 5387.6763 cont loss = 4720.6539
+epoch = 388 loss = 41864.1079 cat loss = 17642.1233 cont_loss = 66086.0925
+epoch = 388 validation loss = 5055.7114 cat loss = 5390.5832 cont loss = 4720.8396
+epoch = 389 loss = 41862.3120 cat loss = 17652.0431 cont_loss = 66072.5807
+epoch = 389 validation loss = 5056.0430 cat loss = 5391.9838 cont loss = 4720.1022
+epoch = 390 loss = 41867.0367 cat loss = 17653.5971 cont_loss = 66080.4765
+epoch = 390 validation loss = 5049.5091 cat loss = 5383.1716 cont loss = 4715.8466
+epoch = 391 loss = 41842.3704 cat loss = 17627.6478 cont_loss = 66057.0928
+epoch = 391 validation loss = 5050.5547 cat loss = 5386.4451 cont loss = 4714.6642
+epoch = 392 loss = 41897.6762 cat loss = 17654.8971 cont_loss = 66140.4552
+epoch = 392 validation loss = 5052.8458 cat loss = 5383.5240 cont loss = 4722.1676
+epoch = 393 loss = 41860.4646 cat loss = 17627.0925 cont_loss = 66093.8368
+epoch = 393 validation loss = 5049.1107 cat loss = 5382.0986 cont loss = 4716.1227
+epoch = 394 loss = 41980.3735 cat loss = 17642.1670 cont_loss = 66318.5800
+epoch = 394 validation loss = 5051.0267 cat loss = 5380.7868 cont loss = 4721.2665
+epoch = 395 loss = 41915.6561 cat loss = 17677.4688 cont_loss = 66153.8435
+epoch = 395 validation loss = 5050.5849 cat loss = 5384.8349 cont loss = 4716.3350
+epoch = 396 loss = 41878.4412 cat loss = 17618.7396 cont_loss = 66138.1429
+epoch = 396 validation loss = 5050.3744 cat loss = 5384.0715 cont loss = 4716.6772
+epoch = 397 loss = 41945.0705 cat loss = 17647.5495 cont_loss = 66242.5915
+epoch = 397 validation loss = 5055.0853 cat loss = 5389.1183 cont loss = 4721.0523
+epoch = 398 loss = 41964.9406 cat loss = 17673.1020 cont_loss = 66256.7792
+epoch = 398 validation loss = 5051.5491 cat loss = 5383.5701 cont loss = 4719.5281
+epoch = 399 loss = 41792.8494 cat loss = 17602.8796 cont_loss = 65982.8193
+epoch = 399 validation loss = 5048.3505 cat loss = 5382.1649 cont loss = 4714.5359
+epoch = 400 loss = 41863.6960 cat loss = 17634.4959 cont_loss = 66092.8960
+epoch = 400 validation loss = 5049.8501 cat loss = 5384.5139 cont loss = 4715.1863
+epoch = 401 loss = 41837.7345 cat loss = 17606.1312 cont_loss = 66069.3377
+epoch = 401 validation loss = 5053.8742 cat loss = 5384.2665 cont loss = 4723.4820
+epoch = 402 loss = 41906.4325 cat loss = 17638.6289 cont_loss = 66174.2362
+epoch = 402 validation loss = 5053.6842 cat loss = 5388.4304 cont loss = 4718.9380
+epoch = 403 loss = 41912.9770 cat loss = 17586.9232 cont_loss = 66239.0310
+epoch = 403 validation loss = 5047.2089 cat loss = 5379.1021 cont loss = 4715.3158
+epoch = 404 loss = 41884.2030 cat loss = 17643.3230 cont_loss = 66125.0829
+epoch = 404 validation loss = 5058.2201 cat loss = 5392.1234 cont loss = 4724.3169
+epoch = 405 loss = 41885.5557 cat loss = 17663.8249 cont_loss = 66107.2867
+epoch = 405 validation loss = 5050.5291 cat loss = 5381.0822 cont loss = 4719.9759
+epoch = 406 loss = 41919.5061 cat loss = 17636.3373 cont_loss = 66202.6748
+epoch = 406 validation loss = 5049.4458 cat loss = 5381.5394 cont loss = 4717.3521
+epoch = 407 loss = 41877.6011 cat loss = 17651.7409 cont_loss = 66103.4613
+epoch = 407 validation loss = 5049.7272 cat loss = 5379.7392 cont loss = 4719.7153
+epoch = 408 loss = 41895.4171 cat loss = 17643.1464 cont_loss = 66147.6879
+epoch = 408 validation loss = 5063.6262 cat loss = 5395.4034 cont loss = 4731.8490
+epoch = 409 loss = 41875.1817 cat loss = 17671.2669 cont_loss = 66079.0966
+epoch = 409 validation loss = 5057.1930 cat loss = 5391.0934 cont loss = 4723.2925
+epoch = 410 loss = 41949.6238 cat loss = 17656.6029 cont_loss = 66242.6448
+epoch = 410 validation loss = 5054.5285 cat loss = 5387.1740 cont loss = 4721.8831
+epoch = 411 loss = 41889.6692 cat loss = 17630.4879 cont_loss = 66148.8504
+epoch = 411 validation loss = 5051.7071 cat loss = 5386.9671 cont loss = 4716.4471
+epoch = 412 loss = 41900.1014 cat loss = 17641.7962 cont_loss = 66158.4065
+epoch = 412 validation loss = 5052.3224 cat loss = 5385.8312 cont loss = 4718.8136
+epoch = 413 loss = 41902.0919 cat loss = 17650.4531 cont_loss = 66153.7304
+epoch = 413 validation loss = 5066.7832 cat loss = 5397.5980 cont loss = 4735.9685
+epoch = 414 loss = 41870.6160 cat loss = 17642.8753 cont_loss = 66098.3568
+epoch = 414 validation loss = 5050.4318 cat loss = 5385.0671 cont loss = 4715.7965
+epoch = 415 loss = 41886.5661 cat loss = 17620.4040 cont_loss = 66152.7284
+epoch = 415 validation loss = 5070.8787 cat loss = 5402.2916 cont loss = 4739.4657
+epoch = 416 loss = 41899.2907 cat loss = 17664.6890 cont_loss = 66133.8926
+epoch = 416 validation loss = 5056.5053 cat loss = 5391.3203 cont loss = 4721.6904
+epoch = 417 loss = 41866.5489 cat loss = 17576.5906 cont_loss = 66156.5073
+epoch = 417 validation loss = 5053.9879 cat loss = 5388.4400 cont loss = 4719.5357
+epoch = 418 loss = 41882.4100 cat loss = 17645.7731 cont_loss = 66119.0468
+epoch = 418 validation loss = 5054.8712 cat loss = 5382.4463 cont loss = 4727.2961
+epoch = 419 loss = 41814.0752 cat loss = 17597.1000 cont_loss = 66031.0503
+epoch = 419 validation loss = 5052.9965 cat loss = 5387.0035 cont loss = 4718.9893
+epoch = 420 loss = 41900.0330 cat loss = 17685.6005 cont_loss = 66114.4654
+epoch = 420 validation loss = 5049.6369 cat loss = 5383.8159 cont loss = 4715.4580
+epoch = 421 loss = 41867.7169 cat loss = 17632.1189 cont_loss = 66103.3147
+epoch = 421 validation loss = 5061.0596 cat loss = 5394.0981 cont loss = 4728.0212
+epoch = 422 loss = 41872.4982 cat loss = 17645.3051 cont_loss = 66099.6913
+epoch = 422 validation loss = 5048.0650 cat loss = 5381.5118 cont loss = 4714.6181
+epoch = 423 loss = 41905.5713 cat loss = 17653.8251 cont_loss = 66157.3176
+epoch = 423 validation loss = 5053.3745 cat loss = 5383.6560 cont loss = 4723.0931
+epoch = 424 loss = 41874.1438 cat loss = 17634.4896 cont_loss = 66113.7982
+epoch = 424 validation loss = 5055.7838 cat loss = 5390.6366 cont loss = 4720.9310
+epoch = 425 loss = 41934.6856 cat loss = 17651.0446 cont_loss = 66218.3268
+epoch = 425 validation loss = 5053.9776 cat loss = 5385.7278 cont loss = 4722.2275
+epoch = 426 loss = 41927.8146 cat loss = 17680.7542 cont_loss = 66174.8749
+epoch = 426 validation loss = 5054.8663 cat loss = 5389.3258 cont loss = 4720.4068
+epoch = 427 loss = 41892.9288 cat loss = 17633.9867 cont_loss = 66151.8707
+epoch = 427 validation loss = 5051.8234 cat loss = 5382.6243 cont loss = 4721.0224
+epoch = 428 loss = 41863.9327 cat loss = 17625.5538 cont_loss = 66102.3115
+epoch = 428 validation loss = 5051.9879 cat loss = 5383.2926 cont loss = 4720.6831
+epoch = 429 loss = 41919.6506 cat loss = 17622.4459 cont_loss = 66216.8553
+epoch = 429 validation loss = 5054.3204 cat loss = 5389.2019 cont loss = 4719.4389
+epoch = 430 loss = 41942.5985 cat loss = 17648.3746 cont_loss = 66236.8224
+epoch = 430 validation loss = 5056.0706 cat loss = 5387.7704 cont loss = 4724.3709
+epoch = 431 loss = 41925.0738 cat loss = 17636.8349 cont_loss = 66213.3127
+epoch = 431 validation loss = 5048.0060 cat loss = 5381.8522 cont loss = 4714.1598
+epoch = 432 loss = 41950.8966 cat loss = 17679.8954 cont_loss = 66221.8976
+epoch = 432 validation loss = 5049.4148 cat loss = 5380.2247 cont loss = 4718.6050
+epoch = 433 loss = 41932.8277 cat loss = 17671.0119 cont_loss = 66194.6434
+epoch = 433 validation loss = 5054.3112 cat loss = 5387.5159 cont loss = 4721.1065
+epoch = 434 loss = 41846.4568 cat loss = 17625.5302 cont_loss = 66067.3835
+epoch = 434 validation loss = 5053.9406 cat loss = 5388.0297 cont loss = 4719.8516
+epoch = 435 loss = 41866.9789 cat loss = 17613.9170 cont_loss = 66120.0409
+epoch = 435 validation loss = 5057.7210 cat loss = 5394.3246 cont loss = 4721.1174
+epoch = 436 loss = 41919.0212 cat loss = 17648.7421 cont_loss = 66189.3002
+epoch = 436 validation loss = 5049.2147 cat loss = 5382.8519 cont loss = 4715.5775
+epoch = 437 loss = 41823.4638 cat loss = 17618.3644 cont_loss = 66028.5632
+epoch = 437 validation loss = 5052.3534 cat loss = 5386.8011 cont loss = 4717.9058
+epoch = 438 loss = 41852.6514 cat loss = 17641.8473 cont_loss = 66063.4555
+epoch = 438 validation loss = 5061.0078 cat loss = 5393.1797 cont loss = 4728.8359
+epoch = 439 loss = 41905.5324 cat loss = 17654.3755 cont_loss = 66156.6894
+epoch = 439 validation loss = 5051.6747 cat loss = 5382.2411 cont loss = 4721.1083
+epoch = 440 loss = 41929.6469 cat loss = 17686.1202 cont_loss = 66173.1735
+epoch = 440 validation loss = 5052.1056 cat loss = 5385.2914 cont loss = 4718.9199
+epoch = 441 loss = 41925.4544 cat loss = 17658.7475 cont_loss = 66192.1615
+epoch = 441 validation loss = 5053.9943 cat loss = 5386.4383 cont loss = 4721.5502
+epoch = 442 loss = 41911.3098 cat loss = 17673.1636 cont_loss = 66149.4559
+epoch = 442 validation loss = 5045.8679 cat loss = 5378.4068 cont loss = 4713.3289
+epoch = 443 loss = 41863.7633 cat loss = 17651.0874 cont_loss = 66076.4393
+epoch = 443 validation loss = 5049.4014 cat loss = 5386.9784 cont loss = 4711.8243
+epoch = 444 loss = 41902.2490 cat loss = 17636.7137 cont_loss = 66167.7843
+epoch = 444 validation loss = 5050.9873 cat loss = 5380.4804 cont loss = 4721.4942
+epoch = 445 loss = 41885.0477 cat loss = 17622.9800 cont_loss = 66147.1153
+epoch = 445 validation loss = 5051.9931 cat loss = 5384.1941 cont loss = 4719.7923
+epoch = 446 loss = 41878.0105 cat loss = 17608.0511 cont_loss = 66147.9697
+epoch = 446 validation loss = 5057.8407 cat loss = 5391.8392 cont loss = 4723.8421
+epoch = 447 loss = 41971.1255 cat loss = 17634.9146 cont_loss = 66307.3364
+epoch = 447 validation loss = 5054.1892 cat loss = 5388.0002 cont loss = 4720.3782
+epoch = 448 loss = 41955.1645 cat loss = 17645.2847 cont_loss = 66265.0442
+epoch = 448 validation loss = 5049.8351 cat loss = 5380.2106 cont loss = 4719.4596
+epoch = 449 loss = 41850.6502 cat loss = 17631.2104 cont_loss = 66070.0901
+epoch = 449 validation loss = 5049.1050 cat loss = 5377.0186 cont loss = 4721.1912
+epoch = 450 loss = 41875.3590 cat loss = 17636.7103 cont_loss = 66114.0078
+epoch = 450 validation loss = 5051.7407 cat loss = 5388.2659 cont loss = 4715.2155
+epoch = 451 loss = 41853.8809 cat loss = 17651.6793 cont_loss = 66056.0826
+epoch = 451 validation loss = 5049.3351 cat loss = 5376.6507 cont loss = 4722.0196
+epoch = 452 loss = 41881.1318 cat loss = 17649.8736 cont_loss = 66112.3901
+epoch = 452 validation loss = 5061.4288 cat loss = 5396.2541 cont loss = 4726.6037
+epoch = 453 loss = 41916.1787 cat loss = 17677.9688 cont_loss = 66154.3886
+epoch = 453 validation loss = 5046.2536 cat loss = 5377.2612 cont loss = 4715.2460
+epoch = 454 loss = 41830.3961 cat loss = 17638.6426 cont_loss = 66022.1495
+epoch = 454 validation loss = 5053.0792 cat loss = 5387.2958 cont loss = 4718.8627
+epoch = 455 loss = 41913.3436 cat loss = 17640.4059 cont_loss = 66186.2812
+epoch = 455 validation loss = 5053.8447 cat loss = 5388.0015 cont loss = 4719.6879
+epoch = 456 loss = 41841.2431 cat loss = 17617.2218 cont_loss = 66065.2646
+epoch = 456 validation loss = 5050.9721 cat loss = 5380.5970 cont loss = 4721.3474
+epoch = 457 loss = 41925.2347 cat loss = 17664.0972 cont_loss = 66186.3722
+epoch = 457 validation loss = 5056.3357 cat loss = 5390.5427 cont loss = 4722.1287
+epoch = 458 loss = 41903.0913 cat loss = 17656.7366 cont_loss = 66149.4462
+epoch = 458 validation loss = 5055.0281 cat loss = 5386.5793 cont loss = 4723.4770
+epoch = 459 loss = 41891.6879 cat loss = 17646.3407 cont_loss = 66137.0350
+epoch = 459 validation loss = 5049.2693 cat loss = 5383.7575 cont loss = 4714.7810
+epoch = 460 loss = 41931.5666 cat loss = 17681.0663 cont_loss = 66182.0667
+epoch = 460 validation loss = 5055.7634 cat loss = 5392.0594 cont loss = 4719.4673
+epoch = 461 loss = 41869.3664 cat loss = 17633.7447 cont_loss = 66104.9880
+epoch = 461 validation loss = 5054.3924 cat loss = 5385.3879 cont loss = 4723.3969
+epoch = 462 loss = 41873.4466 cat loss = 17612.3549 cont_loss = 66134.5382
+epoch = 462 validation loss = 5049.1487 cat loss = 5378.4628 cont loss = 4719.8347
+epoch = 463 loss = 41944.3172 cat loss = 17660.1551 cont_loss = 66228.4794
+epoch = 463 validation loss = 5052.4310 cat loss = 5385.5324 cont loss = 4719.3296
+epoch = 464 loss = 41860.5631 cat loss = 17591.6534 cont_loss = 66129.4727
+epoch = 464 validation loss = 5054.8094 cat loss = 5388.7074 cont loss = 4720.9114
+epoch = 465 loss = 41862.5184 cat loss = 17658.1365 cont_loss = 66066.9004
+epoch = 465 validation loss = 5058.7340 cat loss = 5389.2822 cont loss = 4728.1858
+epoch = 466 loss = 41911.5151 cat loss = 17664.7035 cont_loss = 66158.3269
+epoch = 466 validation loss = 5059.3956 cat loss = 5392.7466 cont loss = 4726.0445
+epoch = 467 loss = 41875.4835 cat loss = 17658.0923 cont_loss = 66092.8747
+epoch = 467 validation loss = 5048.6324 cat loss = 5375.2365 cont loss = 4722.0284
+epoch = 468 loss = 41910.1066 cat loss = 17641.2973 cont_loss = 66178.9159
+epoch = 468 validation loss = 5053.1230 cat loss = 5387.3075 cont loss = 4718.9385
+epoch = 469 loss = 41890.9050 cat loss = 17652.5743 cont_loss = 66129.2360
+epoch = 469 validation loss = 5047.9859 cat loss = 5383.7327 cont loss = 4712.2391
+epoch = 470 loss = 41906.4804 cat loss = 17703.7741 cont_loss = 66109.1868
+epoch = 470 validation loss = 5048.7270 cat loss = 5381.6574 cont loss = 4715.7967
+epoch = 471 loss = 41910.7352 cat loss = 17667.5222 cont_loss = 66153.9481
+epoch = 471 validation loss = 5060.4383 cat loss = 5393.5375 cont loss = 4727.3391
+epoch = 472 loss = 41884.9415 cat loss = 17625.2817 cont_loss = 66144.6015
+epoch = 472 validation loss = 5053.3582 cat loss = 5386.6420 cont loss = 4720.0744
+epoch = 473 loss = 41939.6841 cat loss = 17647.4981 cont_loss = 66231.8702
+epoch = 473 validation loss = 5050.9757 cat loss = 5385.2540 cont loss = 4716.6973
+epoch = 474 loss = 41903.5611 cat loss = 17637.3092 cont_loss = 66169.8128
+epoch = 474 validation loss = 5051.8455 cat loss = 5384.0699 cont loss = 4719.6212
+epoch = 475 loss = 41881.4259 cat loss = 17650.0300 cont_loss = 66112.8219
+epoch = 475 validation loss = 5051.6833 cat loss = 5382.8716 cont loss = 4720.4950
+epoch = 476 loss = 41921.2032 cat loss = 17668.3211 cont_loss = 66174.0853
+epoch = 476 validation loss = 5060.2673 cat loss = 5395.3665 cont loss = 4725.1681
+epoch = 477 loss = 41907.5095 cat loss = 17642.7889 cont_loss = 66172.2299
+epoch = 477 validation loss = 5049.6902 cat loss = 5384.6518 cont loss = 4714.7287
+epoch = 478 loss = 41930.2900 cat loss = 17659.6963 cont_loss = 66200.8838
+epoch = 478 validation loss = 5054.8342 cat loss = 5389.4203 cont loss = 4720.2481
+epoch = 479 loss = 41885.7208 cat loss = 17603.8959 cont_loss = 66167.5459
+epoch = 479 validation loss = 5044.8310 cat loss = 5372.3524 cont loss = 4717.3097
+epoch = 480 loss = 41978.1235 cat loss = 17666.0462 cont_loss = 66290.2008
+epoch = 480 validation loss = 5057.2796 cat loss = 5391.0497 cont loss = 4723.5096
+epoch = 481 loss = 41881.6994 cat loss = 17671.1048 cont_loss = 66092.2941
+epoch = 481 validation loss = 5051.9401 cat loss = 5385.9975 cont loss = 4717.8828
+epoch = 482 loss = 41884.2204 cat loss = 17666.7474 cont_loss = 66101.6934
+epoch = 482 validation loss = 5054.0553 cat loss = 5389.8545 cont loss = 4718.2560
+epoch = 483 loss = 41899.9950 cat loss = 17646.4656 cont_loss = 66153.5244
+epoch = 483 validation loss = 5067.5308 cat loss = 5399.2981 cont loss = 4735.7635
+epoch = 484 loss = 41923.5772 cat loss = 17637.0209 cont_loss = 66210.1336
+epoch = 484 validation loss = 5049.7002 cat loss = 5382.0909 cont loss = 4717.3096
+epoch = 485 loss = 41929.5280 cat loss = 17621.5012 cont_loss = 66237.5547
+epoch = 485 validation loss = 5051.7817 cat loss = 5386.4512 cont loss = 4717.1122
+epoch = 486 loss = 41869.1525 cat loss = 17639.4850 cont_loss = 66098.8199
+epoch = 486 validation loss = 5053.8190 cat loss = 5387.2463 cont loss = 4720.3917
+epoch = 487 loss = 41916.9778 cat loss = 17679.9221 cont_loss = 66154.0335
+epoch = 487 validation loss = 5051.6537 cat loss = 5385.1683 cont loss = 4718.1390
+epoch = 488 loss = 41872.9946 cat loss = 17679.5761 cont_loss = 66066.4130
+epoch = 488 validation loss = 5056.0744 cat loss = 5390.4485 cont loss = 4721.7003
+epoch = 489 loss = 41875.6400 cat loss = 17674.2768 cont_loss = 66077.0030
+epoch = 489 validation loss = 5062.5827 cat loss = 5397.6122 cont loss = 4727.5533
+epoch = 490 loss = 41854.7858 cat loss = 17602.1068 cont_loss = 66107.4649
+epoch = 490 validation loss = 5051.1859 cat loss = 5385.8089 cont loss = 4716.5630
+epoch = 491 loss = 41945.2826 cat loss = 17649.0891 cont_loss = 66241.4762
+epoch = 491 validation loss = 5052.3545 cat loss = 5385.8677 cont loss = 4718.8413
+epoch = 492 loss = 41931.2752 cat loss = 17624.2593 cont_loss = 66238.2909
+epoch = 492 validation loss = 5061.1357 cat loss = 5393.2591 cont loss = 4729.0123
+epoch = 493 loss = 41873.2586 cat loss = 17640.0932 cont_loss = 66106.4239
+epoch = 493 validation loss = 5050.1075 cat loss = 5382.1894 cont loss = 4718.0255
+epoch = 494 loss = 41815.4766 cat loss = 17619.7142 cont_loss = 66011.2389
+epoch = 494 validation loss = 5055.4951 cat loss = 5390.5266 cont loss = 4720.4637
+epoch = 495 loss = 41935.2598 cat loss = 17636.9105 cont_loss = 66233.6090
+epoch = 495 validation loss = 5056.7039 cat loss = 5391.3080 cont loss = 4722.0998
+epoch = 496 loss = 41903.9056 cat loss = 17642.8004 cont_loss = 66165.0107
+epoch = 496 validation loss = 5052.2274 cat loss = 5385.9115 cont loss = 4718.5433
+epoch = 497 loss = 41906.2860 cat loss = 17673.0077 cont_loss = 66139.5642
+epoch = 497 validation loss = 5051.3732 cat loss = 5384.2132 cont loss = 4718.5332
+epoch = 498 loss = 41931.3422 cat loss = 17623.0970 cont_loss = 66239.5872
+epoch = 498 validation loss = 5051.1455 cat loss = 5379.5471 cont loss = 4722.7439
+epoch = 499 loss = 41853.7638 cat loss = 17637.3523 cont_loss = 66070.1753
+epoch = 499 validation loss = 5051.7655 cat loss = 5384.2937 cont loss = 4719.2373
+completed training
+saved models
+starting testing
+completed testing
+saved mat files
+Category        Affection 0.26343
+Category            Anger 0.06563
+Category        Annoyance 0.11931
+Category     Anticipation 0.93606
+Category         Aversion 0.09386
+Category       Confidence 0.74216
+Category      Disapproval 0.11516
+Category    Disconnection 0.29346
+Category     Disquietment 0.16419
+Category  Doubt/Confusion 0.15388
+Category    Embarrassment 0.05968
+Category       Engagement 0.96813
+Category           Esteem 0.21216
+Category       Excitement 0.72526
+Category          Fatigue 0.08189
+Category             Fear 0.05831
+Category        Happiness 0.68192
+Category             Pain 0.07919
+Category            Peace 0.21951
+Category         Pleasure 0.38088
+Category          Sadness 0.10619
+Category      Sensitivity 0.05146
+Category        Suffering 0.09885
+Category         Surprise 0.11384
+Category         Sympathy 0.23777
+Category         Yearning 0.10416
+Mean AP 0.27409
+Continuous    Valence 0.72429
+Continuous    Arousal 0.88951
+Continuous  Dominance 0.88074
+Mean VAD Error 0.83151
+saved thresholds

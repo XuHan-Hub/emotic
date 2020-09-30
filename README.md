@@ -1,4 +1,7 @@
 # Emotic 
+Oritinal website: https://github.com/Tandon-A/emotic
+
+https://github.com/Tandon-A/emotic
 
 Humans use their facial features or expressions to convey how they feel, such as a person may smile when happy and scowl when angry. Historically, computer vision research has focussed on analyzing and learning these facial features to recognize emotions. 
 However, these facial features are not universal and vary extensively across cultures and situations. 
@@ -43,7 +46,7 @@ Download the [Emotic dataset](https://drive.google.com/open?id=0B7sjGeF4f3FYQUVl
 2. To train the model: 
 
 ```
-> python main.py --mode train --data_path proj/data/emotic_pre --experiment_path proj/debug_exp
+> python main.py --mode train --data_path proj/data/emotic19/emotic_pre --experiment_path proj/debug_exp
 ```
 * mode: Mode to run the main file.
 * data_path: Path of the directory which contains the preprocessed data and CSV files generated in the first step.  
@@ -52,7 +55,7 @@ Download the [Emotic dataset](https://drive.google.com/open?id=0B7sjGeF4f3FYQUVl
 3. To test the model: 
 
 ```
-> python main.py --mode test --data_path proj/data/emotic_pre --experiment_path proj/debug_exp
+> python main.py --mode test --data_path proj/data/emotic19/emotic_pre --experiment_path proj/debug_exp
 ```
 * mode: Mode to run the main file.
 * data_path: Path of the directory which contains the preprocessed data and CSV files generated in the first step.  

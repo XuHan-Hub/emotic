@@ -3,8 +3,13 @@ import csv
 import cv2
 import numpy as np 
 import os 
-from scipy.io import loadmat 
+from scipy.io import loadmat
 
+context_RGB_count = np.zeros((3,))
+context_mask_RGB_count = np.zeros((3,))
+context_seg_RGB_count = np.zeros((3,))
+context_depth_RGB_count = np.zeros((3,))
+body_RGB_count = np.zeros((3,))
 
 class emotic_train:
     def __init__(self, filename, folder, image_size, person):
@@ -165,6 +170,10 @@ def prepare_data(data_mat, data_path_src, save_dir, dataset_type='train', genera
     body_arr = list()
     cat_arr = list()
     cont_arr = list()
+
+    context_mask_arr = list()
+    context_depth_arr = list()
+    context_seg_arr = list()
   
   to_break = 0
   path_not_exist = 0
@@ -178,7 +187,9 @@ def prepare_data(data_mat, data_path_src, save_dir, dataset_type='train', genera
       else:
         et = emotic_test(ex[0][0],ex[1][0],ex[2],ex[4][0][person])
       try:
-        image_path = os.path.join(data_path_src,et.folder,et.filename)
+        image_path = os.path.join(data_path_src+'/emotic',et.folder,et.filename)
+        image_depth_path = os.path.join(data_path_src+'/emotic_depth',et.folder,et.filename)
+        image_seg_path = os.path.join(data_path_src+'/emotic_seg',et.folder,et.filename)
         if not os.path.exists(image_path):
           path_not_exist += 1
           print ('path not existing', ex_idx, image_path)
@@ -186,8 +197,32 @@ def prepare_data(data_mat, data_path_src, save_dir, dataset_type='train', genera
         else:
           context = cv2.cvtColor(cv2.imread(image_path),cv2.COLOR_BGR2RGB)
           body = context[et.bbox[1]:et.bbox[3],et.bbox[0]:et.bbox[2]].copy()
+          context_mask = context.copy()
+
+          context_mask[et.bbox[1]:et.bbox[3],et.bbox[0]:et.bbox[2],:]=0
+
           context_cv = cv2.resize(context, (224,224))
+          # context_RGB_count = context_RGB_count + np.sum(context_cv,axis=(0,1))
           body_cv = cv2.resize(body, (128,128))
+          # body_RGB_count = body_RGB_count + np.sum(body_cv,axis=(0,1))
+          context_mask_cv = cv2.resize(body, (224,224))
+          # context_mask_RGB_count = context_mask_RGB_count + np.sum(context_mask_cv,axis=(0,1))
+        if not os.path.exists(image_depth_path):
+          path_not_exist += 1
+          print('depth_path not existing', ex_idx, image_path)
+          continue
+        else:
+          context_depth = cv2.imread(image_depth_path)
+          context_depth = np.tile(context_depth, (1,1,3))
+          context_depth_cv = cv2.resize(context_depth, (224, 224))
+        if not os.path.exists(image_seg_path):
+          path_not_exist += 1
+          print('depth_path not existing', ex_idx, image_path)
+          continue
+        else:
+          context_seg = cv2.imread(image_depth_path)
+          context_seg_cv = cv2.resize(context_seg, (224, 224))
+
       except Exception as e:
         to_break += 1
         if debug_mode == True:
@@ -200,6 +235,10 @@ def prepare_data(data_mat, data_path_src, save_dir, dataset_type='train', genera
       if generate_npy == True:
         context_arr.append(context_cv)
         body_arr.append(body_cv)
+        context_mask_arr.append(context_mask_cv)
+        context_depth_arr.append(context_depth_cv)
+        context_seg_arr.append(context_seg_cv)
+
         if dataset_type == 'train':
           cat_arr.append(cat_to_one_hot(et.cat))
           cont_arr.append(np.array(et.cont))
@@ -212,11 +251,16 @@ def prepare_data(data_mat, data_path_src, save_dir, dataset_type='train', genera
         print (" Preprocessing data. Index = ", idx)
       idx = idx + 1
     # for debugging purposes
+    if idx==100:
+        break
     if debug_mode == True and idx >= 104:
       print (' ######## Breaking data prep step', idx, ex_idx, ' ######')
       print (to_break, path_not_exist, cat_cont_zero)
       cv2.imwrite(os.path.join(save_dir, 'context1.png'), context_arr[-1])
       cv2.imwrite(os.path.join(save_dir, 'body1.png'), body_arr[-1])
+      cv2.imwrite(os.path.join(save_dir, 'context_mask1.png'), context_mask_arr[-1])
+      cv2.imwrite(os.path.join(save_dir, 'context_depth1.png'), context_depth_arr[-1])
+      cv2.imwrite(os.path.join(save_dir, 'context_seg1.png'), context_seg_arr[-1])
       break
   print (to_break, path_not_exist, cat_cont_zero)
   
@@ -235,12 +279,19 @@ def prepare_data(data_mat, data_path_src, save_dir, dataset_type='train', genera
 
   if generate_npy == True: 
     context_arr = np.array(context_arr)
+    context_mask_arr = np.array(context_mask_arr)
+    context_depth_arr = np.array(context_depth_arr)
+    context_seg_arr = np.array(context_seg_arr)
     body_arr = np.array(body_arr)
     cat_arr = np.array(cat_arr)
     cont_arr = np.array(cont_arr)
     print (len(data_set), context_arr.shape, body_arr.shape)
     np.save(os.path.join(save_dir,'%s_context_arr.npy' %(dataset_type)), context_arr)
+    np.save(os.path.join(save_dir,'%s_context_mask_arr.npy' %(dataset_type)), context_mask_arr)
+    np.save(os.path.join(save_dir,'%s_context_depth_arr.npy' %(dataset_type)), context_depth_arr)
+    np.save(os.path.join(save_dir,'%s_context_seg_arr.npy' %(dataset_type)), context_seg_arr)
     np.save(os.path.join(save_dir,'%s_body_arr.npy' %(dataset_type)), body_arr)
+
     np.save(os.path.join(save_dir,'%s_cat_arr.npy' %(dataset_type)), cat_arr)
     np.save(os.path.join(save_dir,'%s_cont_arr.npy' %(dataset_type)), cont_arr)
     print (context_arr.shape, body_arr.shape, cat_arr.shape, cont_arr.shape)
@@ -261,7 +312,8 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
     ann_path_src = os.path.join(args.data_dir, 'Annotations','Annotations.mat')
-    data_path_src = os.path.join(args.data_dir, 'emotic')
+    # data_path_src = os.path.join(args.data_dir, 'emotic')
+    data_path_src = os.path.join(args.data_dir)
     save_path = os.path.join(args.data_dir, args.save_dir_name)
     if not os.path.exists(save_path):
       os.makedirs(save_path)
